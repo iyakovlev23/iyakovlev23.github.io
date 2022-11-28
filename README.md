@@ -1,2 +1,2 @@
-# iyakovlev23.github.io
+# Ivan Yakovlev
 Ivan Yakovlev's webpage
