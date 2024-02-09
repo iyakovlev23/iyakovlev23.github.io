@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.29)  9 FEB 2024 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.29)  9 FEB 2024 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -384,8 +384,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 59
 .
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-No file cv.aux.
+) (./cv.aux)
 \openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
@@ -408,6 +407,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5
 9.
+
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -488,12 +488,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 59.
+(./cv.out) (./cv.out)
 \@outlinefile=\write3
 \openout3 = `cv.out'.
 
+\pagenumberwidth=\skip75
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 59.
 \makecvtitledetailsbox=\box55
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 12.
+
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -530,8 +535,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvtitlepicturebox=\box56
-\makecvtitledetailswidth=\skip75
-\makecvtitlepicturewidth=\skip76
+\makecvtitledetailswidth=\skip76
+\makecvtitlepicturewidth=\skip77
 
 Underfull \hbox (badness 10000) in paragraph at lines 112--112
 
@@ -552,34 +557,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 162.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 165.
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./
 cv.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  1026FF28A61BEBE3BA5EF2C70D02882D;1371.
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: 49AA7A12E62E01E17EA088CC2A782A14;1208.
  ) 
 Here is how much of TeX's memory you used:
- 12953 strings out of 476065
- 214085 string characters out of 5791028
- 1874305 words of memory out of 5000000
- 33066 multiletter control sequences out of 15000+600000
+ 12969 strings out of 476065
+ 214239 string characters out of 5791028
+ 1875305 words of memory out of 5000000
+ 33077 multiletter control sequences out of 15000+600000
  580463 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,12n,83p,999b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,13n,83p,999b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2022/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2022/texmf-dist/
@@ -594,10 +588,10 @@ exmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2022/texmf-dist
 pe1/public/lm/lmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
 /lm/lmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/marvosym/
 marvosym.pfb>
-Output written on cv.pdf (2 pages, 208277 bytes).
+Output written on cv.pdf (2 pages, 209198 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 39425 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 130 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
+ 13 named destinations out of 1000 (max. 500000)
+ 39505 words of extra memory for PDF output out of 42996 (max. 10000000)
 
