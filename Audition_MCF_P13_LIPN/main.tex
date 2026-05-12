@@ -81,7 +81,7 @@
 
 % \newcommand{\nb}[1]{
 % \begin{flushright} 
-% \color{red} \tiny{#1}
+%   \tiny{#1}
 % \end{flushright}
 % }
 
@@ -94,7 +94,7 @@
 	\footnotesize 
 	\centering 
 	\begin{tabular}{l l}
-		2024 -- 2026 & Postdoc (MPI for Mathematics, Bonn) \\
+		2024 -- \ \ \ \ & Postdoc (MPI for Mathematics, Bonn) \\
 		2021 -- 2024 & Doctorat (LaBRI, Bordeaux) \\
 		2018 -- 2021 & ENS + M2 Math Fonda (Paris) \\
 		2015 -- 2019 & Licence Math Appli (Kiev)	
@@ -103,7 +103,7 @@
 }
 
 \begin{frame}{Enseignement : expérience}
-	
+	\centering
 2021 -- 2024, Université de Bordeaux, Licence Info.
     \smallskip
 \begin{table}
@@ -123,10 +123,18 @@
     	%L2 & \alert{Réseaux} & 32h & TD/TDM  \\ \hline
     \end{tabular}
 \end{table}
-
-%\alert{Intégration enseignement}:  encadrement.
-
 \end{frame}
+
+\begin{frame}{Enseignement : expérience}
+	\begin{itemize}
+		\item CI $\approx$ cours
+		\item Prog C : programmation ``en direct'', faire des erreurs exprès
+		\item Proba, stat, combinatoire : rappels des notions de base, réexpliquer les cours
+		\item Algo des arbres : élaboration des tests, comparer le niveau avec d'autres groupes, réviser les copies / grille d'évaluation avec les collègues
+		\item groupe de lecture (MPI 2026) : élaborer le programme
+	\end{itemize}
+\end{frame}
+
 
 \begin{frame}{Enseignement : projet d'intégration}
 	\textbf{Dès la rentrée} : 
@@ -142,27 +150,29 @@
  \end{frame}
 
 
-\begin{frame}{Activités diverses}
-\begin{tabular}{p{0.13\textwidth} p{0.8\textwidth}}
-    \alert{Organisation} & 
-    \begin{itemize}
-        \item séminaire de l'équipe ``Combinatoire et Interactions'' (Bordeaux, 2022 -- 2023)
-        \item école ``Surfaces plates et interactions'' (Le Teich, 2024)
-        \item groupe de lecture ``Géométrie spectrale'' (Bonn, 2026)
-    \end{itemize}\\ 
-     \vspace{-5mm} \alert{Diffusion} & 
-     \vspace{-5mm} 
-     \begin{itemize}
-         \item enseignement des mathématiques olympiques aux collégiens et lycéens (Kiev 2015 -- 2018, Marseille 2022)
-         \item organisation / jury aux olympiades mathématiques \\ (Kiev 2015 -- 2018, EGMO 2019)
-     \end{itemize}\\
-\end{tabular}    
-\end{frame}
+%\begin{frame}{Activités diverses}
+%\begin{tabular}{p{0.13\textwidth} p{0.8\textwidth}}
+%    \alert{Organisation} & 
+%    \begin{itemize}
+%        \item séminaire de l'équipe ``Combinatoire et Interactions'' (Bordeaux, 2022 -- 2023)
+%        \item école ``Surfaces plates et interactions'' (Le Teich, 2024)
+%        \item groupe de lecture ``Géométrie spectrale'' (Bonn, 2026)
+%    \end{itemize}\\ 
+%     \vspace{-5mm} \alert{Diffusion} & 
+%     \vspace{-5mm} 
+%     \begin{itemize}
+%         \item enseignement des mathématiques olympiques aux collégiens et lycéens (Kiev 2015 -- 2018, Marseille 2022)
+%         \item organisation / jury aux olympiades mathématiques \\ (Kiev 2015 -- 2018, EGMO 2019)
+%     \end{itemize}\\
+%\end{tabular}    
+%\end{frame}
 
 \begin{frame}{Recherche}
     \begin{figure}
         \centering
-        \includegraphics[width=0.8\linewidth]{circles.pdf}
+        \def\svgwidth{\textwidth}
+        %\footnotesize
+        \input{circles.pdf_tex}
     \end{figure}
 \end{frame}
 
@@ -175,123 +185,161 @@
     \end{enumerate}
 \end{frame}
 
-\begin{frame}{Surfaces de translation}
-    \begin{figure}
-
-        \centering
-        \includegraphics[width=0.4\linewidth]{euclidean-polygons.eps}
-        \hspace{15mm}
-        \includegraphics[width=0.23\linewidth]{singularity.eps}
-    \end{figure}
-
-    %Trois définitions équivalentes :
-{ \centering
-\alert{Recollement de polygones} le long de cotés égaux et parallèles.
-
-$\Updownarrow$
-  
-\alert{Surface plate} aux singularités coniques d'angles $2\pi k$ (et l'holonomie triviale).
-}
-        %\item courbe complexe muni d'une 1-forme holomorphe (\alert{différentielle abélienne}).
+\begin{frame}{Surfaces à petits carreaux}
+	\vspace{5mm}
+	\begin{minipage}{0.4\linewidth}
+		\centering
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.35\linewidth]{squares-french.pdf}
+			\caption{\small Règle de recollement :\\ $H \leftrightarrow B$, $G \leftrightarrow D$}
+		\end{figure}
+	\end{minipage}%
+\begin{minipage}{0.58\linewidth}
+	\vspace{-7mm}
+	\begin{figure}
+		\includegraphics[width=0.55\linewidth]{surface.eps}
+		\end{figure}
+\end{minipage}
+\pause 
+	\centering
+	\small Décomposition : cylindres + carte métrique
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\linewidth]{cyl-decomp.pdf}
+	\end{figure}
 \end{frame}
 
-\begin{frame}{Espaces de modules (paramètres)}
+\begin{frame}{Cartes combinatoires (métriques)}
+	
+	\centering
+	Graphe dessiné sur une surface
+	
+	$\Updownarrow$
+	
+	Graphe + ordres cycliques des arêtes autour de chaque sommet
+	\medskip
+	
+	\begin{figure}
+		\begin{overprint}
+			\onslide<1> 
+			\centering \includegraphics[width=0.7\textwidth]{def-rg-1.pdf}
+			\onslide<2> 
+			\centering \includegraphics[width=0.7\textwidth]{def-rg-2.pdf}
+			\onslide<3-> 
+			\centering \includegraphics[width=0.7\textwidth]{def-rg-3.pdf}
+		\end{overprint}
+	\end{figure}
+	
+	\pause \pause \pause 
+	\bigskip
+	Métrique sur $G$  = fonction $E(G) \rightarrow \Rm_{>0}$
+	
+\end{frame}
 
-\alert{Strates des surfaces de translation :} 
-\[\Hc(\u k) = \Hc(k_1,\ldots, k_n) = \left \{
-\begin{array}{c}
-     \text{surfaces de translation aux} \\ 
-     \text{angles coniques $2\pi(k_i+1)$}
-\end{array}\right \}\]
-
-\begin{itemize}
-	\item variétés (localement $\mathbb{R}^n$);
-	\item  coordonnées : vecteurs des cotés des polygones;
-	\item admettent une mesure finie naturelle (\alert{mesure de Masur--Veech}).
-\end{itemize}
-
-
-%\bigskip
-%$\leadsto$ constantes de Siegel--Veech (Eskin-Masur-Zorich '03, Goujard '15) \\ \quad \ exposants de Lyapunov (Eskin-Kontsevich-Zorich '14) 
-
-%$\leadsto$ comptage de géodésiques sur les surfaces plates (Eskin-Masur '01) \\ \quad \ taux de diffusion des billards périodiques (Delecroix-Hubert-Lelièvre '14)
+\begin{frame}{Paramétrer les cartes métriques ?}
+	\begin{itemize}
+		\item Métriques sur $G$ $\leftrightarrow$ cône $\Rm_{>0}^{E(G)}$
+		\pause
+		\item longueur de $e$ est zéro  $\leftrightarrow$ contraction de $e$
+		\pause
+		\item recollement naturel des cônes (``flips'') :
+	\end{itemize}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\textwidth]{recollement-mgn-comb-2.pdf}
+	\end{figure}
+	\pause
+	$\leadsto$ complexe polyédrique $\mathcal{M}_{g,n}^{comb}$ (``espace de modules combinatoire'')
+%    \begin{figure}
+%
+%        \centering
+%        \includegraphics[width=0.4\linewidth]{euclidean-polygons.eps}
+%        \hspace{15mm}
+%        \includegraphics[width=0.23\linewidth]{singularity.eps}
+%    \end{figure}
 
 \end{frame}
 
-\begin{frame}{Surfaces à petits carreaux (SPC)}
 
-\[\text{Calcul des volumes de Masur--Veech} \iff \begin{array}{c}\text{\alert{énumération asymptotique} des} \\ \text{``points entiers'' dans les strates.}\end{array}\]
-
-\vspace{3mm}
-    
-        \begin{minipage}{0.3\linewidth}
-        \begin{figure}
-        \centering
-            \includegraphics[width=0.5\linewidth]{squares-french.pdf}
-            \caption{Règle de recollement :\\ $H \leftrightarrow B$, $G \leftrightarrow D$}
-        \end{figure}
-        \end{minipage}%
-        \begin{minipage}{0.69\linewidth}
-        \vspace{-1cm}
-        \begin{figure}
-        \centering
-            \includegraphics[height=0.3\textheight]{4-2.pdf}
-            \hspace{5mm}
-            \includegraphics[height=0.3\textheight]{4-3.pdf}
-        \end{figure}
-        \end{minipage}
-        % \vspace{1mm}
-        % \[\# \{\text{SPC dans $\Hc(\u k)$ avec $\le N$ carreaux}\} \sim \operatorname{const} \cdot \alert{\operatorname{Vol} \Hc(\u k)} \cdot N^{2g+n-1},\ N \rightarrow \infty\]
-    
-\end{frame}
-
-\begin{frame}{Approches aux volumes de Masur--Veech}
-
-Théorie des représentations des groupes symétriques (Eskin-Okounkov '01), théorie de l'intersection (Sauvaget '18, Chen-M\"{o}ller-Sauvaget-Zagier '20),
-\alert{approche combinatoire} (Athreya-Eskin-Zorich '14, Delecroix-Goujard-\\-Zograf-Zorich '21).
-
-\pause
-
+%\begin{frame}{Surfaces à petits carreaux (SPC)}
+%
+%\[\text{Calcul des volumes de Masur--Veech} \iff \begin{array}{c}\text{\alert{énumération asymptotique} des} \\ \text{``points entiers'' dans les strates.}\end{array}\]
+%
 %\vspace{3mm}
-    \begin{center}
-        SPC = cylindres + \alert{graphes en rubans métriques}
-    \end{center}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.65\linewidth]{cyl-decomp.pdf}
-        %\vspace{3mm}
-        %\includegraphics[width=0.5\textwidth]{def-rg-1.pdf}
-    \end{figure}
-\end{frame}
+%    
+%        \begin{minipage}{0.3\linewidth}
+%        \begin{figure}
+%        \centering
+%            \includegraphics[width=0.5\linewidth]{squares-french.pdf}
+%            \caption{Règle de recollement :\\ $H \leftrightarrow B$, $G \leftrightarrow D$}
+%        \end{figure}
+%        \end{minipage}%
+%        \begin{minipage}{0.69\linewidth}
+%        \vspace{-1cm}
+%        \begin{figure}
+%        \centering
+%            \includegraphics[height=0.3\textheight]{4-2.pdf}
+%            \hspace{5mm}
+%            \includegraphics[height=0.3\textheight]{4-3.pdf}
+%        \end{figure}
+%        \end{minipage}
+%        % \vspace{1mm}
+%        % \[\# \{\text{SPC dans $\Hc(\u k)$ avec $\le N$ carreaux}\} \sim \operatorname{const} \cdot \alert{\operatorname{Vol} \Hc(\u k)} \cdot N^{2g+n-1},\ N \rightarrow \infty\]
+%    
+%\end{frame}
 
-\begin{frame}{Comptage de graphes en rubans métriques}
+%\begin{frame}{Approches aux volumes de Masur--Veech}
+%
+%Théorie des représentations des groupes symétriques (Eskin-Okounkov '01), théorie de l'intersection (Sauvaget '18, Chen-M\"{o}ller-Sauvaget-Zagier '20),
+%\alert{approche combinatoire} (Athreya-Eskin-Zorich '14, Delecroix-Goujard-\\-Zograf-Zorich '21).
+%
+%\pause
+%
+%%\vspace{3mm}
+%    \begin{center}
+%        SPC = cylindres + \alert{graphes en rubans métriques}
+%    \end{center}
+%    \begin{figure}
+%        \centering
+%        \includegraphics[width=0.65\linewidth]{cyl-decomp.pdf}
+%        %\vspace{3mm}
+%        %\includegraphics[width=0.5\textwidth]{def-rg-1.pdf}
+%    \end{figure}
+%\end{frame}
 
-$\leadsto$ compter les graphes en rubans métriques de genre $g$ avec $n$ bords de longueurs $L_1,\ldots,L_n$.
+\begin{frame}{Comptage de cartes métriques}
+
+\textbf{Problème} : compter les cartes de genre $g$ avec $n$ faces de longueurs $L_1,\ldots,L_n$.
+\bigskip
+%\pause
+\pause
+
+\textbf{Théorème (Kontsevich '92).} Cartes \alert{trivalents} $\Rightarrow$ \alert{polynôme} en $L_i$ dont les coefficients sont les nombres d'intersection $\int_{\overline{\Mc}_{g,n}} \psi_1^{d_1}\cdots \psi_n^{d_n}$.
+\bigskip
+\pause
+
+\textbf{Théorèmes.} Fonctions de comptage \alert{polynomiales} explicites :\\
+\begin{itemize}
+	\item \textbf{(Y. '23)} cartes \alert{face-bicolores à un sommet}.
+	\item \textbf{(Y. '24)} Comptage pondéré des cartes \alert{face-bicolores à $\ge 2$ sommets}.
+	\item \textbf{(Duryev-Goujard-Y. '25)} cartes aux \alert{degrés de sommets impaires fixés}.
+\end{itemize}    
+\bigskip
 
 \pause
-    \begin{block}{Théorème (Kontsevich '92)}
-        Graphes \alert{trivalents} $\Rightarrow$ \alert{polynôme} en $L_i$ dont les coefficients sont les nombres d'intersection $\int_{\overline{\Mc}_{g,n}} \psi_1^{d_1}\cdots \psi_n^{d_n}$.
-    \end{block}
-    \pause
-    \begin{block}{Théorèmes}
-    Fonctions de comptage \alert{polynomiales} explicites :\\
-    \begin{itemize}
-        \pause \item \textbf{(Y. '23)} Graphes \alert{face-bicolores à un sommet}.
-        \pause \item \textbf{(Y. '24)} Comptage pondéré des graphes \alert{face-bicolores à $\ge 2$ sommets}.
-        \pause \item \textbf{(Duryev-Goujard-Y. '25)} Graphes aux \alert{degrés de sommets impaires fixés}.
-    \end{itemize}        
-    \end{block}
+$\leadsto$ \textbf{Applications :} géométrie des SPC aléatoires, calcul des volumes de Masur--Veech, leurs analyse asymptotique, raffinement des résultats algébriques...
     
 \end{frame}
 
 
 \begin{frame}{Outils : combinatoire bijective}
     
-    \textbf{(Y. '23)} : \alert{bijection de Chapuy-Féray-Fusy '13} entre les graphes en rubans à un bord et les arbres planes décorés.
+    \textbf{(Y. '23)} : \alert{bijection de Chapuy-Féray-Fusy '13} entre les cartes à une face et les arbres planaires décorés.
 
-    \textbf{(Y. '24)} : \alert{bijection de Bernardi '07} entre les graphes planaires munis d'un arbre couvrant et les paires d'arbres planaires.
+    \textbf{(Y. '24)} : \alert{bijection de Bernardi '07} entre les cartes planaires munies d'un arbre couvrant et les paires d'arbres planaires.
 
-    \textbf{(Duryev-Goujard-Y. '25)} : \alert{bijection à la Pr\"{u}fer} pour les arbres étiquetés.
+    \textbf{(D-G-Y. '25)} : \alert{bijection à la Pr\"{u}fer} pour certaines structures arborescentes.
     
     \begin{figure}
         \centering
@@ -303,11 +351,10 @@ $\leadsto$ compter les graphes en rubans métriques de genre $g$ avec $n$ bords 
 \end{frame}
 
 
-\begin{frame}{Applications}
-
-    \begin{block}{Théorème (Y. '23)}
-    Formule explicite pour la série génératrice bivariée $\mathcal{C}(t,u)$ des contributions $a_{g,n}$ des surfaces à petits carreaux avec $n$ cylindres au \alert{volume de $\Hc(2g-2)$}.
-    \end{block}
+%\begin{frame}{Applications}
+%    \begin{block}{Théorème (Y. '23)}
+%    Formule explicite pour la série génératrice bivariée $\mathcal{C}(t,u)$ des contributions $a_{g,n}$ des surfaces à petits carreaux avec $n$ cylindres au \alert{volume de $\Hc(2g-2)$}.
+%    \end{block}
     % \begin{block}{Théorème (Y. '23)}
     % Soit $a_{g,n}$ la contribution (normalisée) des surfaces à petits carreaux avec $n$ cylindres au \alert{volume de $\Hc(2g-2)$} et soit $\mathcal{C}(t,u) = 1 + \sum_{g\geq 1} \left(\sum_{n=1}^g a_{g,n} u^n \right) (2g-1)t^{2g}$. Alors pour tout $g\geq 0$
     %     \begin{equation*}
@@ -315,46 +362,40 @@ $\leadsto$ compter les graphes en rubans métriques de genre $g$ avec $n$ bords 
     %         \frac{1}{(2g)!} [t^{2g}] \mathcal{C}(t,u)^{2g} = [t^{2g}] \left(\frac{t/2}{\sin(t/2)}\right)^u.
     %     \end{equation*}
     % \end{block}
-	$\leadsto$ distribution des cylindres des SPC aléatoires dans $\Hc(2g-2)$ (travail en cours)
+%	$\leadsto$ distribution des cylindres des SPC aléatoires dans $\Hc(2g-2)$ (travail en cours)
 
     %\begin{itemize}
         %\item inversion de Lagrange $\Rightarrow$ formule explicite pour $\mathcal{C}(t,u)$;
         %\item $u=1 \Rightarrow$ formule de Sauvaget '18 pour les volumes totaux, obtenu par la géométrie algébrique %$\leadsto$ interprétation algébrique de $\mathcal{C}(t,u)$ ?
         %\item $a_{g,n}/\sum_k a_{g,k}$ -- proba qu'une SPC aléatoire dans $\Hc(2g-2)$ a $n$ cylindres.
     %\end{itemize}
-\medskip
-\pause
-    \begin{block}{Théorème (Duryev-Goujard-Y. '25)}
-    Récursion explicite pour les \alert{volumes des strates de différentielles quadratiques aux singularités impaires}, qui fait intervenir les nombres d'intersection des classes psi et les cycles combinatoires de Kontsevich--Witten.
-    \end{block}
-	$\leadsto$ asymptotique des volumes pour $g \rightarrow \infty$ (travail en cours)
+%\medskip
+%\pause
+%    \begin{block}{Théorème (Duryev-Goujard-Y. '25)}
+%    Récursion explicite pour les \alert{volumes des strates de différentielles quadratiques aux singularités impaires}, qui fait intervenir les nombres d'intersection des classes psi et les cycles combinatoires de Kontsevich--Witten.
+%    \end{block}
+%	$\leadsto$ asymptotique des volumes pour $g \rightarrow \infty$ (travail en cours)
+%\end{frame}
+
+\begin{frame}{Projet de recherche / intégration}
+	
+    \begin{figure}
+	\centering
+	\def\svgwidth{0.95\textwidth}
+	\footnotesize
+	\input{circles-projet.pdf_tex}
+\end{figure}
 \end{frame}
 
-\begin{frame}{Projet de recherche}
-	
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.9\linewidth]{circles-2.pdf}
-	\end{figure}
-	
-    %\begin{itemize}
-       %\item \alert{statistiques explicites} des cylindres pour les strates plus générales et leurs composantes connexes;
-       %\item \alert{distributions asymptotiques} des nombres de cylindres (conjectures de Delecroix-Goujard-Zograf-Zorich);
-       %\item \alert{phénomène de polynomialité} pour les fonctions de comptage;
-       %\item \alert{combinatoire des polynômes de Kontsevich} et des nombres d'intersection (orientations de Kasteleyn, structures spin, formules locales combinatoires);
-       %\item interprétation des résultats combinatoires par la \alert{géométrie algébrique / théorie des représentations}.
-    %\end{itemize}
-\end{frame}
-
-\begin{frame}{Intégration}
-\begin{itemize}
-	\item Thierry Monteil (surfaces de translation);
-	\item Meltem Ünel (limites locaux/globaux d'arbres, des cartes combinatoires, géométrie hyperbolique);
-	\item Lionel Pournin (géométrie polyèdrale, graphes des flips);
-	\item Andrea Sportiello (systèmes intégrables, modèles de mécanique statistique);
-	\item Axel Bacher, Cyril Banderier, Frédérique Bassino (combinatoire énumérative).
-\end{itemize}
-\end{frame}
+%\begin{frame}{Intégration}
+%\begin{itemize}
+%	\item Thierry Monteil (surfaces de translation);
+%	\item Meltem Ünel (limites locaux/globaux d'arbres, des cartes combinatoires, géométrie hyperbolique);
+%	\item Lionel Pournin (géométrie polyèdrale, graphes des flips);
+%	\item Andrea Sportiello (systèmes intégrables, modèles de mécanique statistique);
+%	\item Axel Bacher, Frédérique Bassino (combinatoire énumérative).
+%\end{itemize}
+%\end{frame}
 
 \appendix
 
@@ -367,6 +408,174 @@ $\leadsto$ compter les graphes en rubans métriques de genre $g$ avec $n$ bords 
   \vfill
   \end{frame}
 
+%\begin{frame}{Metric ribbon graphs and counting functions}
+%	A \alert{metric} on a ribbon graph $G$ is a function $E(G) \rightarrow \Rm_{>0}$. \smallskip
+%	
+%	
+%	For a ribbon graph $G$ with $n$ labeled faces and $L_1,\ldots,L_n \in \Zm$, let
+%	\begin{equation*}
+%		\Nc_G(L_1,\ldots, L_n) = 
+%		\# \left \{
+%		\begin{array}{c}
+%			\text{\emph{integer} metrics on } G \text{ with \alert{perimeter} of}\\
+%			\text{the } i\text{-th face equal to } L_i
+%		\end{array}
+%		\right \}
+%	\end{equation*}
+%	
+%	
+%	For a \emph{face-bicolored} ribbon graph $G$ with $k$ black and $l$ white faces, and $L_1,\ldots,L_k, L'_1,\ldots,L'_l \in \Zm$, define analogously
+%	\begin{equation*}
+%		\Nc_G(L_1,\ldots, L_k; L'_1,\ldots,L'_l).
+%	\end{equation*}
+%	% \begin{equation*}
+%		%     \Pc_G(L_1,\ldots, L_n; L'_1,\ldots,L'_l) = 
+%		%     \# \left \{
+%		%     \begin{array}{c}
+%			%          \text{\emph{integer} metrics on } G \text{ with \alert{perimeter} of}\\
+%			%          \text{the } i\text{-th boundary component equal to } L_i
+%			%     \end{array}
+%		%     \right \}
+%		% \end{equation*}
+%\end{frame}
+%
+%\begin{frame}{Computing a counting function}
+%	\begin{figure}
+%		%    \begin{overprint}
+%			%        \onslide<1-2>
+%			%        \centering
+%			%        \def\svgwidth{0.4\textwidth}
+%			%        \input{intro-5-0.pdf_tex}
+%			%        \onslide<3->
+%			\centering
+%			\def\svgwidth{0.4\textwidth}
+%			\input{intro-5-1.pdf_tex}
+%			%    \end{overprint}
+%	\end{figure}
+%	
+%	$\Nc_G$ is zero outside of $\left \{ \sum_i L_i = \sum_j L'_j,\ L_i>0,\ L'_j>0 \right \}$.
+%	\begin{equation*}
+%		\begin{cases}
+%			a,b,c,d > 0\\
+%			a=L_1\\
+%			b+c+d=L_2\\
+%			a+b=L'_1\\
+%			c+d=L'_2
+%		\end{cases}
+%		\iff \ \ 
+%		\begin{cases}
+%			a,b,c,d > 0\\
+%			a=L_1\\
+%			b=L'_1-L_1\\
+%			c+d=L'_2
+%		\end{cases}
+%		\Rightarrow \Nc_G(L;L') = \mathbf{1}_{L'_1 > L_1} \cdot (L'_2-1).
+%	\end{equation*}
+%\end{frame}
+
+\begin{frame}{Piecewise polynomiality}
+	%Let $\PSc_{k,l}$ be the polyhedral subdivision of $\Rm^k \times \Rm^l$ generated by the hyperplanes (``walls'') of the form $\sum_{i \in I} L_i = \sum_{j \in J} L'_j,\ I \subset \{1,\ldots,k\},\ J \subset \{1, \ldots, l\}$.
+	
+	%\pause
+	\begin{block}{Proposition}
+		For any $G$ the function $\Nc_G$ is \alert{piecewise {\tiny (quasi-)}polynomial}. The regions of polynomiality are cut out by a certain hyperplane arrangement $\Hc_n$ ($\Hc_{k,l}$).
+	\end{block}
+	
+	Idea of proof: counting integer points in a deforming polytope.
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.25\textheight]{polytopes.eps}
+	\end{figure}
+	Note that the \alert{top-degree term} of $\Nc_G$ gives the \alert{volume} of this polytope!
+	
+\end{frame}
+
+
+
+\begin{frame}{Cylinder contributions in $\Hc(2g-2)$}
+	\begin{theorem}[Y., 2023]
+		The contribution of $n$-cylinder square-tiled surfaces to the volume of $\Hc(2g-2)$ is equal to $\frac{2(2\pi)^{2g}}{(2g-1)!}a_{g,n}$, where $a_{g,n} \in \Qm$, and whose generating function $\mathcal{C}(t,u) = 1 + \sum_{g\geq 1} \left(\sum_{n=1}^g a_{g,n} u^n \right) (2g-1)t^{2g}$ satisfies for all $g\ge 0$
+		\[
+		\frac{1}{(2g)!} [t^{2g}] \mathcal{C}(t,u)^{2g} = [t^{2g}] \left(\frac{t/2}{\sin(t/2)}\right)^u.
+		\]
+	\end{theorem}
+	\begin{itemize}
+		\item Lagrange inversion $\Rightarrow$ explicit formula for $\mathcal{C}(t,u)$;
+		\item setting $u=1$ we recover the result of Sauvaget.
+		\item Faber-Pandharipande 2000: $\left(\frac{t/2}{\sin(t/2)}\right)^{u+1}$ is the generating function of Hodge integrals $\int_{\overline{\mathcal{M}}_{g,1}} \lambda_{g-i} \psi_1^{2g-2+i}$
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Many-vertex face-bicolored graphs}
+	%    If there are $\ge 2$ vertices, even the top-degree term are \emph{not} polynomial... 
+	%    
+	%     
+	%    Solution: \alert{weight} the contribution of each graph!
+	
+	\begin{figure}
+		%        \begin{overprint}
+			%            \onslide<3>
+			%            \centering
+			%            \includegraphics[width=0.25\textwidth]{weghting-1.pdf}
+			%            \onslide<4>
+			%            \centering
+			%            \includegraphics[width=0.25\textwidth]{weghting-2.pdf}
+			%            \onslide<5->
+			\centering
+			\includegraphics[width=0.25\textwidth]{weghting-3.pdf}
+			%        \end{overprint}
+	\end{figure}
+	
+	\begin{itemize}
+		
+		\item Orient each edge of $G$ so that the black face is to the left;
+		
+		\item let $t(G)$ be the number of oriented spanning trees of $G$ rooted at an arbitrary vertex (independent of the vertex!);
+	\end{itemize}
+	
+	\begin{equation*}
+		\widetilde{\mathcal{N}}^{d}_{g,(k,l)}(L,L') = \sum_{G \in \RGc^{d}_{g,(k,l)}} \frac{\alert{t(G)}}{|\operatorname{Aut}(G)|} \cdot \mathcal{N}_G(L,L').
+	\end{equation*}
+\end{frame}
+
+\begin{frame}{Many-vertex face-bicolored graphs}
+	
+	\begin{block}{Theorem (Y. '24)}
+		For $g=0$, the \alert{top-degree term} of $\widetilde{\mathcal{N}}^{d}_{0,(k,l)}$ is a \alert{polynomial}
+		\vspace{-2mm}
+		\begin{equation*}
+			(k+l-2)! \cdot (L_1+\ldots+L_k)^{\ell(d)-1}.
+		\end{equation*}
+	\end{block}
+	
+	Idea: use the bijection of \alert{Bernardi '07} between tree-rooted plane maps and pairs of plane trees + more tricks with trees. %; refined enumeration of metric plane trees.
+	
+	\begin{figure}
+		%    \begin{overprint}
+			%        \onslide<2> 
+			%        \centering
+			%        \includegraphics[width=0.6\textwidth]{many-vertices-bij.pdf}
+			%        \onslide<3> 
+			%        \centering
+			%        \includegraphics[width=0.6\textwidth]{many-vertices-bij-2.eps}
+			%        \onslide<4-> 
+			\centering
+			\includegraphics[width=0.6\textwidth]{many-vertices-bij-3.eps}
+			%    \end{overprint}
+	\end{figure}
+	
+	% \pause
+	%     \begin{block}{Conjecture}
+		%         Outside of the walls, the top-degree term of $\widetilde{\mathcal{P}}^{d}_{g,(k,l)}$ is a \alert{polynomial}
+		%         \vspace{-2mm}
+		%         \begin{equation*}
+			%             top\left( \Pc^{[2(k+l-1+2g)]}_{g,(k,l)} \right)(L,L') \cdot (L_1+\ldots+L_k)^{\ell(d)-1}. 
+			%         \end{equation*}
+		%     \end{block}
+\end{frame}
+
+
+
 \begin{frame}{Computing degeneration coefficients on the walls}
             \begin{figure}
             \centering
@@ -376,7 +585,7 @@ $\leadsto$ compter les graphes en rubans métriques de genre $g$ avec $n$ bords 
 
          \begin{equation*}
     \label{eq:pNumbersRecursion}
-    (k+l-2)! = p^{b_1,\ldots,b_n}_{w_1,\ldots,w_n} + \sum_{t=2}^n \frac{\color{red}(k+l-2)_{t-2}}{t!} \sum_{I_1, \ldots I_t} \prod_{j=1}^t \left(\sum_{i\in I_j} (b_i+w_i) - 1\right) p^{b_{I_j}}_{w_{I_j}},
+    (k+l-2)! = p^{b_1,\ldots,b_n}_{w_1,\ldots,w_n} + \sum_{t=2}^n \frac{ (k+l-2)_{t-2}}{t!} \sum_{I_1, \ldots I_t} \prod_{j=1}^t \left(\sum_{i\in I_j} (b_i+w_i) - 1\right) p^{b_{I_j}}_{w_{I_j}},
     \end{equation*}
 \end{frame}
 
@@ -397,20 +606,6 @@ $\leadsto$ compter les graphes en rubans métriques de genre $g$ avec $n$ bords 
     }
 \end{frame}
 
-\begin{frame}{Cylinder contributions in $\Hc(2g-2)$}
-    \begin{theorem}[Y., 2023]
-    The contribution of $n$-cylinder square-tiled surfaces to the volume of $\Hc(2g-2)$ is equal to $\frac{2(2\pi)^{2g}}{(2g-1)!}a_{g,n}$, where $a_{g,n} \in \Qm$, and whose generating function $\mathcal{C}(t,u) = 1 + \sum_{g\geq 1} \left(\sum_{n=1}^g a_{g,n} u^n \right) (2g-1)t^{2g}$ satisfies for all $g\ge 0$
-    \[
-    \frac{1}{(2g)!} [t^{2g}] \mathcal{C}(t,u)^{2g} = [t^{2g}] \left(\frac{t/2}{\sin(t/2)}\right)^u.
-    \]
-    \end{theorem}
-    \begin{itemize}
-        \pause \item Lagrange inversion $\Rightarrow$ explicit formula for $\mathcal{C}(t,u)$;
-        \pause \item setting $u=1$ we recover the result of Sauvaget.
-        \pause \item Faber-Pandharipande 2000: $\left(\frac{t/2}{\sin(t/2)}\right)^{u+1}$ is the generating function of Hodge integrals $\int_{\overline{\mathcal{M}}_{g,1}} \lambda_{g-i} \psi_1^{2g-2+i}$
-    \end{itemize}
-\end{frame}
-
 
 \begin{frame}{Cylinder contributions in spin components of $\Hc(2g-2)$}
 \begin{theorem}[Y., 2024+]
@@ -424,36 +619,36 @@ $\leadsto$ compter les graphes en rubans métriques de genre $g$ avec $n$ bords 
     where $B_{2k}$ is the $2k$-th Bernoulli number.
 \end{theorem}
 
-\pause $u=1$ : formula from Chen, M\"{o}ller, Sauvaget, Zagier.
+ $u=1$ : formula from Chen, M\"{o}ller, Sauvaget, Zagier.
 \end{frame}
 
-\begin{frame}{Ribbon graphs ($=$ combinatorial maps)}
-
-A \alert{ribbon graph} is a graph (loops and multiple edges allowed) with a circular ordering of (half-)edges incident to every vertex.
-
-\begin{figure}
-    \begin{overprint}
-    
-        \onslide<1-2> 
-        \centering \includegraphics[width=0.8\textwidth]{def-rg-1.pdf}
-        \onslide<3> 
-        \centering \includegraphics[width=0.8\textwidth]{def-rg-2.pdf}
-        \onslide<4-> 
-        \centering \includegraphics[width=0.8\textwidth]{def-rg-3.pdf}
-    \end{overprint}
-\end{figure}
-
-\pause
-Equivalently, cellular embedding of a graph into a surface. \smallskip
-
-\pause \pause \pause
-\alert{Euler's formula}: $|V(G)|-|E(G)|+|F(G)| = 2-2g$.\smallskip
-
+%\begin{frame}{Ribbon graphs ($=$ combinatorial maps)}
+%
+%A \alert{ribbon graph} is a graph (loops and multiple edges allowed) with a circular ordering of (half-)edges incident to every vertex.
+%
+%\begin{figure}
+%    \begin{overprint}
+%    
+%        \onslide<1-2> 
+%        \centering \includegraphics[width=0.8\textwidth]{def-rg-1.pdf}
+%        \onslide<3> 
+%        \centering \includegraphics[width=0.8\textwidth]{def-rg-2.pdf}
+%        \onslide<4-> 
+%        \centering \includegraphics[width=0.8\textwidth]{def-rg-3.pdf}
+%    \end{overprint}
+%\end{figure}
+%
 %\pause
-
-%A \alert{metric} on a ribbon graph $G$ is a function $E(G) \rightarrow \Rm_{>0}$. 
-
-\end{frame}
+%Equivalently, cellular embedding of a graph into a surface. \smallskip
+%
+%\pause \pause \pause
+%\alert{Euler's formula}: $|V(G)|-|E(G)|+|F(G)| = 2-2g$.\smallskip
+%
+%%\pause
+%
+%%A \alert{metric} on a ribbon graph $G$ is a function $E(G) \rightarrow \Rm_{>0}$. 
+%
+%\end{frame}
 
 
 % \begin{frame}{Enumeration of ribbon graphs (\emph{pot-pourri})}
@@ -494,137 +689,50 @@ Equivalently, cellular embedding of a graph into a surface. \smallskip
 %     $\RGc_{g,n}$, $\RGc_{g,(k,l)}$ -- no constraints on vertex degrees.
 % \end{frame}
 
-\begin{frame}{Metric ribbon graphs and counting functions}
-    A \alert{metric} on a ribbon graph $G$ is a function $E(G) \rightarrow \Rm_{>0}$. \smallskip
 
-    \pause
-    For a ribbon graph $G$ with $n$ labeled faces and $L_1,\ldots,L_n \in \Zm$, let
-    \begin{equation*}
-        \Nc_G(L_1,\ldots, L_n) = 
-        \# \left \{
-        \begin{array}{c}
-             \text{\emph{integer} metrics on } G \text{ with \alert{perimeter} of}\\
-             \text{the } i\text{-th face equal to } L_i
-        \end{array}
-        \right \}
-    \end{equation*}
 
-    \pause
-    For a \emph{face-bicolored} ribbon graph $G$ with $k$ black and $l$ white faces, and $L_1,\ldots,L_k, L'_1,\ldots,L'_l \in \Zm$, define analogously
-    \begin{equation*}
-        \Nc_G(L_1,\ldots, L_k; L'_1,\ldots,L'_l).
-    \end{equation*}
-    % \begin{equation*}
-    %     \Pc_G(L_1,\ldots, L_n; L'_1,\ldots,L'_l) = 
-    %     \# \left \{
-    %     \begin{array}{c}
-    %          \text{\emph{integer} metrics on } G \text{ with \alert{perimeter} of}\\
-    %          \text{the } i\text{-th boundary component equal to } L_i
-    %     \end{array}
-    %     \right \}
-    % \end{equation*}
-\end{frame}
-
-\begin{frame}{Computing a counting function}
-\begin{figure}
-    \begin{overprint}
-        \onslide<1-2>
-        \centering
-        \def\svgwidth{0.4\textwidth}
-        \input{intro-5-0.pdf_tex}
-        \onslide<3->
-        \centering
-        \def\svgwidth{0.4\textwidth}
-        \input{intro-5-1.pdf_tex}
-    \end{overprint}
-    
-\end{figure}
-
-\pause
-$\Nc_G$ is zero outside of $\left \{ \sum_i L_i = \sum_j L'_j,\ L_i>0,\ L'_j>0 \right \}$.
-\begin{equation*}
-\pause \pause
-    \begin{cases}
-    a,b,c,d > 0\\
-    a=L_1\\
-    b+c+d=L_2\\
-    a+b=L'_1\\
-    c+d=L'_2
-    \end{cases}
-\pause
-    \iff \ \ 
-    \begin{cases}
-    a,b,c,d > 0\\
-    a=L_1\\
-    b=L'_1-L_1\\
-    c+d=L'_2
-    \end{cases}
-\pause
-    \Rightarrow \Nc_G(L;L') = \mathbf{1}_{L'_1 > L_1} \cdot (L'_2-1).
-\end{equation*}
-\end{frame}
-
-\begin{frame}{Counting functions}
-%Let $\PSc_{k,l}$ be the polyhedral subdivision of $\Rm^k \times \Rm^l$ generated by the hyperplanes (``walls'') of the form $\sum_{i \in I} L_i = \sum_{j \in J} L'_j,\ I \subset \{1,\ldots,k\},\ J \subset \{1, \ldots, l\}$.
-
+%\begin{frame}{Counting functions}
+%
+%Introduce the counting functions for families $\RGc^d_{g,n}$ of ribbon graphs sharing the same genus $g$, number of faces $n$ and vertex-degree profile $d$:
+%\begin{align*}
+%    \Nc^d_{g,n}(L) &= \sum_{G \in \RGc^d_{g,n}} \frac{1}{|\operatorname{Aut}(G)|}\cdot \Nc_G(L). %,\\
+%    %\Nc^d_{g,(k,l)}(L,L') &= \sum_{G \in \RGc^d_{g,(k,l)}} \frac{1}{|\operatorname{Aut}(G)|}\cdot \Nc_G(L,L').
+%\end{align*}
+%
+%\pause 
+%Define $\Nc^d_{g,(k,l)}(L,L')$ analogously.
+%
 %\pause
-    \begin{block}{Proposition}
-        For any $G$ the function $\Nc_G$ is \alert{piecewise {\tiny (quasi-)}polynomial}. The regions of polynomiality are cut out by a certain hyperplane arrangement $\Hc_n$ ($\Hc_{k,l}$).
-    \end{block}
+%\bigskip
+%\centering
+%\emph{A priori} piecewise (quasi-)polynomials... 
+%\pause 
+%
+%But \alert{sometimes the top-degree term is polynomial!}
+%\end{frame}
 
-\pause
-Idea of proof: counting integer points in a deforming polytope.
- \begin{figure}
-    \centering
-    \includegraphics[height=0.25\textheight]{polytopes.eps}
-\end{figure}
-\pause
-Note that the \alert{top-degree term} of $\Nc_G$ gives the \alert{volume} of this polytope!
-
-\end{frame}
-
-\begin{frame}{Counting functions}
-
-Introduce the counting functions for families $\RGc^d_{g,n}$ of ribbon graphs sharing the same genus $g$, number of faces $n$ and vertex-degree profile $d$:
-\begin{align*}
-    \Nc^d_{g,n}(L) &= \sum_{G \in \RGc^d_{g,n}} \frac{1}{|\operatorname{Aut}(G)|}\cdot \Nc_G(L). %,\\
-    %\Nc^d_{g,(k,l)}(L,L') &= \sum_{G \in \RGc^d_{g,(k,l)}} \frac{1}{|\operatorname{Aut}(G)|}\cdot \Nc_G(L,L').
-\end{align*}
-
-\pause 
-Define $\Nc^d_{g,(k,l)}(L,L')$ analogously.
-
-\pause
-\bigskip
-\centering
-\emph{A priori} piecewise (quasi-)polynomials... 
-\pause 
-
-But \alert{sometimes the top-degree term is polynomial!}
-\end{frame}
-
-\begin{frame}{Example 1: trivalent graphs}
-
-Consider the families of \emph{trivalent} ribbon graphs: $d = [3,\ldots, 3] = [3^{4g+2n-4}]$.
-
-\pause
-\begin{block}{Theorem (Kontsevich, '92)}
-    For any $g,n$, the \alert{top-degree term} of $\Nc^{[3^{4g+2n-4}]}_{g,n}$ is a \alert{polynomial}
-    % \begin{equation*}
-    %     \frac{1}{2^{{5g-6+2n}}} \sum_{d_1+\ldots+d_n = 3g-3+n} \langle \tau_{d_1}\cdots \tau_{d_n} \rangle \prod_{i=1}^n \frac{L_i^{2d_i}}{d_i!},
-    % \end{equation*}
-    whose coefficients are the intersection numbers of $\psi$-classes on the moduli space of marked Riemann surfaces: $ \int_{\overline{\Mc}_{g,n}} \psi_1^{\alpha_1}\cdots \psi_n^{\alpha_n}$.
-\end{block}
-
-\pause
-\bigskip
-Idea: polytopes corresponding to all graphs $G$ can be glued together to form a space homeomorphic to $\overline{\Mc}_{g,n}$.
-% \pause
-% \textbf{Norbury '10}: $\Nc^{[3^{4g+2n-4}]}_{g,n}$ is a quasi-polynomial. \smallskip
-% \pause 
-
-% Witten's conjecture, $\Mc^{comb}_{g,n}$, Weil-Petersson volumes (\textbf{Mirzakhani '08}).
-\end{frame}
+%\begin{frame}{Example 1: trivalent graphs}
+%
+%Consider the families of \emph{trivalent} ribbon graphs: $d = [3,\ldots, 3] = [3^{4g+2n-4}]$.
+%
+%\pause
+%\begin{block}{Theorem (Kontsevich, '92)}
+%    For any $g,n$, the \alert{top-degree term} of $\Nc^{[3^{4g+2n-4}]}_{g,n}$ is a \alert{polynomial}
+%    % \begin{equation*}
+%    %     \frac{1}{2^{{5g-6+2n}}} \sum_{d_1+\ldots+d_n = 3g-3+n} \langle \tau_{d_1}\cdots \tau_{d_n} \rangle \prod_{i=1}^n \frac{L_i^{2d_i}}{d_i!},
+%    % \end{equation*}
+%    whose coefficients are the intersection numbers of $\psi$-classes on the moduli space of marked Riemann surfaces: $ \int_{\overline{\Mc}_{g,n}} \psi_1^{\alpha_1}\cdots \psi_n^{\alpha_n}$.
+%\end{block}
+%
+%\pause
+%\bigskip
+%Idea: polytopes corresponding to all graphs $G$ can be glued together to form a space homeomorphic to $\overline{\Mc}_{g,n}$.
+%% \pause
+%% \textbf{Norbury '10}: $\Nc^{[3^{4g+2n-4}]}_{g,n}$ is a quasi-polynomial. \smallskip
+%% \pause 
+%
+%% Witten's conjecture, $\Mc^{comb}_{g,n}$, Weil-Petersson volumes (\textbf{Mirzakhani '08}).
+%\end{frame}
 
 % \begin{frame}{Inspiration: Kontsevich polynomials}
 %     \begin{itemize}
@@ -636,66 +744,66 @@ Idea: polytopes corresponding to all graphs $G$ can be glued together to form a 
 %     \end{itemize}
 % \end{frame}
 
-\section{Results on counting functions of metric ribbon graphs}
-
-\begin{frame}{Example 2: one-vertex face-bicolored graphs}
-    Consider one-vertex face-bicolored graphs: $d=[2\cdot (k+l-1+2g)]$.
-
-\pause
-    \begin{block}{Theorem (Y. '23)}
-    For any $g,k,l$, the \alert{top-degree term} of $\Nc^{[2(k+l-1+2g)]}_{g,(k,l)}$ is a \alert{polynomial} outside of the hyperplanes, whose coefficients count certain metric plane trees. Analogous statement is true on any intersection of hyperplanes.
-    \end{block}
-    
-\pause
-\bigskip
-Idea: compute explicitly using a bijective approach!
-% \pause
-%     \begin{itemize}
-%         \item Outside of the walls we recover a special case of the formula from \textbf{Okounkov-Pandharipande '06};
-%         \pause
-%         \item top-degree term of $\Pc^{[2(2n-1+2g)]}_{g,(n,n)}$ on $\{L_i=L'_i,\ i=1,\ldots,n\}$ $\Rightarrow$ application to enumeration of ST surfaces.
-%     \end{itemize}
-\end{frame}
-
-\begin{frame}{Example 2: one-vertex face-bicolored graphs}
-    % Sketch of proof:
-    \begin{itemize}
-        % \item pass to dual ribbon graphs;
-        \item $g=0$: elementary count of metric plane trees; %\includegraphics[width=0.3\textwidth]{tree-4.pdf}
-    \end{itemize}
-    \begin{figure}
-        \centering
-        \vspace{-8mm}
-        \includegraphics[width=0.4\textwidth]{tree-4.pdf}
-        \vspace{-3mm}
-    \end{figure}
-    \begin{itemize}
-        \item $g>0$: reduce to case $g=0$ using the bijection of \alert{Chapuy-F\'{e}ray-Fusy '13} between 1-face maps and decorated plane trees, via \alert{vertex explosions}.
-    \end{itemize}
-    \begin{figure}
-        \centering
-        \includegraphics[height=0.3\textheight]{chapuy-2.png}
-        \hspace{15mm}
-        \includegraphics[height=0.3\textheight]{chapuy-3.png}
-    \end{figure}
-    % \begin{itemize}
-    %     \item<2-> $\Pc^{[2(k+l-1)]}_{0,(k,l)}(L;L')$ is piecewise constant; by duality, it counts bipartite metric plane trees with fixed sums of lengths around each vertex (given by $L_i, L'_i$);
-    %     \item<3-> each tree contributes either $1$ or $0$;
-    %     \item<4-> when traversing a wall, we ``loose'' and ``gain'' an equal number of trees.
-    % \end{itemize}
-    % \begin{figure}
-    % \begin{overprint}
-    %     \onslide<1>
-    %     \centering
-    %     \includegraphics[width=0.4\textwidth]{tree-4.pdf}
-    %     \hspace{0.4\textwidth}
-    %     \onslide<4->
-    %     \centering
-    %     \includegraphics[width=0.4\textwidth]{tree-4.pdf}
-    %     \includegraphics[width=0.4\textwidth]{bijection.eps}
-    % \end{overprint}
-    % \end{figure}
-\end{frame}
+%\section{Results on counting functions of metric ribbon graphs}
+%
+%\begin{frame}{Example 2: one-vertex face-bicolored graphs}
+%    Consider one-vertex face-bicolored graphs: $d=[2\cdot (k+l-1+2g)]$.
+%
+%\pause
+%    \begin{block}{Theorem (Y. '23)}
+%    For any $g,k,l$, the \alert{top-degree term} of $\Nc^{[2(k+l-1+2g)]}_{g,(k,l)}$ is a \alert{polynomial} outside of the hyperplanes, whose coefficients count certain metric plane trees. Analogous statement is true on any intersection of hyperplanes.
+%    \end{block}
+%    
+%\pause
+%\bigskip
+%Idea: compute explicitly using a bijective approach!
+%% \pause
+%%     \begin{itemize}
+%%         \item Outside of the walls we recover a special case of the formula from \textbf{Okounkov-Pandharipande '06};
+%%         \pause
+%%         \item top-degree term of $\Pc^{[2(2n-1+2g)]}_{g,(n,n)}$ on $\{L_i=L'_i,\ i=1,\ldots,n\}$ $\Rightarrow$ application to enumeration of ST surfaces.
+%%     \end{itemize}
+%\end{frame}
+%
+%\begin{frame}{Example 2: one-vertex face-bicolored graphs}
+%    % Sketch of proof:
+%    \begin{itemize}
+%        % \item pass to dual ribbon graphs;
+%        \item $g=0$: elementary count of metric plane trees; %\includegraphics[width=0.3\textwidth]{tree-4.pdf}
+%    \end{itemize}
+%    \begin{figure}
+%        \centering
+%        \vspace{-8mm}
+%        \includegraphics[width=0.4\textwidth]{tree-4.pdf}
+%        \vspace{-3mm}
+%    \end{figure}
+%    \begin{itemize}
+%        \item $g>0$: reduce to case $g=0$ using the bijection of \alert{Chapuy-F\'{e}ray-Fusy '13} between 1-face maps and decorated plane trees, via \alert{vertex explosions}.
+%    \end{itemize}
+%    \begin{figure}
+%        \centering
+%        \includegraphics[height=0.3\textheight]{chapuy-2.png}
+%        \hspace{15mm}
+%        \includegraphics[height=0.3\textheight]{chapuy-3.png}
+%    \end{figure}
+%    % \begin{itemize}
+%    %     \item<2-> $\Pc^{[2(k+l-1)]}_{0,(k,l)}(L;L')$ is piecewise constant; by duality, it counts bipartite metric plane trees with fixed sums of lengths around each vertex (given by $L_i, L'_i$);
+%    %     \item<3-> each tree contributes either $1$ or $0$;
+%    %     \item<4-> when traversing a wall, we ``loose'' and ``gain'' an equal number of trees.
+%    % \end{itemize}
+%    % \begin{figure}
+%    % \begin{overprint}
+%    %     \onslide<1>
+%    %     \centering
+%    %     \includegraphics[width=0.4\textwidth]{tree-4.pdf}
+%    %     \hspace{0.4\textwidth}
+%    %     \onslide<4->
+%    %     \centering
+%    %     \includegraphics[width=0.4\textwidth]{tree-4.pdf}
+%    %     \includegraphics[width=0.4\textwidth]{bijection.eps}
+%    % \end{overprint}
+%    % \end{figure}
+%\end{frame}
 
 % \begin{frame}{One-vertex face-bicolored graphs}
 %     Sketch of proof ($g>0$):
@@ -716,86 +824,19 @@ Idea: compute explicitly using a bijective approach!
 %     \end{figure}
 % \end{frame}
 
-\begin{frame}{NEW: many-vertex face-bicolored graphs}
-    If there are $\ge 2$ vertices, even the top-degree term are \emph{not} polynomial... 
-    
-    \pause 
-    Solution: \alert{weight} the contribution of each graph!
 
-    \begin{figure}
-        \begin{overprint}
-            \onslide<3>
-            \centering
-            \includegraphics[width=0.25\textwidth]{weghting-1.pdf}
-            \onslide<4>
-            \centering
-            \includegraphics[width=0.25\textwidth]{weghting-2.pdf}
-            \onslide<5->
-            \centering
-            \includegraphics[width=0.25\textwidth]{weghting-3.pdf}
-        \end{overprint}
-    \end{figure}
-    
-    \begin{itemize}
-    \pause \pause
-        \item Orient each edge of $G$ so that the black face is to the left;
-    \pause
-        \item let $t(G)$ be the number of oriented spanning trees of $G$ rooted at an arbitrary vertex (independent of the vertex!);
-    \end{itemize}
-    \pause
-    \begin{equation*}
-    \widetilde{\mathcal{N}}^{d}_{g,(k,l)}(L,L') = \sum_{G \in \RGc^{d}_{g,(k,l)}} \frac{\alert{t(G)}}{|\operatorname{Aut}(G)|} \cdot \mathcal{N}_G(L,L').
-    \end{equation*}
-\end{frame}
 
-\begin{frame}{NEW: many-vertex face-bicolored graphs}
-
-    \begin{block}{Theorem (Y. '24)}
-        For $g=0$, the \alert{top-degree term} of $\widetilde{\mathcal{N}}^{d}_{0,(k,l)}$ is a \alert{polynomial}
-        \vspace{-2mm}
-        \begin{equation*}
-            (k+l-2)! \cdot (L_1+\ldots+L_k)^{\ell(d)-1}.
-        \end{equation*}
-    \end{block}
-
-\pause
-Idea: use the bijection of \alert{Bernardi '07} between tree-rooted plane maps and pairs of plane trees + more tricks with trees. %; refined enumeration of metric plane trees.
-
-\begin{figure}
-    \begin{overprint}
-        \onslide<2> 
-        \centering
-        \includegraphics[width=0.6\textwidth]{many-vertices-bij.pdf}
-        \onslide<3> 
-        \centering
-        \includegraphics[width=0.6\textwidth]{many-vertices-bij-2.eps}
-        \onslide<4-> 
-        \centering
-        \includegraphics[width=0.6\textwidth]{many-vertices-bij-3.eps}
-    \end{overprint}
-\end{figure}
-
-% \pause
-%     \begin{block}{Conjecture}
-%         Outside of the walls, the top-degree term of $\widetilde{\mathcal{P}}^{d}_{g,(k,l)}$ is a \alert{polynomial}
-%         \vspace{-2mm}
-%         \begin{equation*}
-%             top\left( \Pc^{[2(k+l-1+2g)]}_{g,(k,l)} \right)(L,L') \cdot (L_1+\ldots+L_k)^{\ell(d)-1}. 
-%         \end{equation*}
-%     \end{block}
-\end{frame}
-
-\begin{frame}{Discussion}
-    \begin{itemize}
-        \item Weighted version is also true for $g>0$, but hard to prove bijectively.%(covered  maps of Bernardi-Chapuy '11)
-        \pause
-        \item From Kontsevich's proof one can also get a weighted version for trivalent graphs; weight = number of \alert{Kasteleyn orientations} with fixed ``indegrees''.
-        \pause
-        \item Formula $(k+l-2)! \cdot (L_1+\ldots+L_k)^{\ell(d)-1}$ suggests a double counting argument: each tree contributes $(L_1+\ldots+L_k)^{\ell(d)-1}$.
-        \pause 
-        \item It would be interesting to have such an argument for trivalent graphs \\$\Rightarrow$ combinatorics of the numbers $\int_{\overline{\Mc}_{g,n}} \psi_1^{\alpha_1}\cdots \psi_n^{\alpha_n}$.
-    \end{itemize}
-\end{frame}
+%\begin{frame}{Discussion}
+%    \begin{itemize}
+%        \item Weighted version is also true for $g>0$, but hard to prove bijectively.%(covered  maps of Bernardi-Chapuy '11)
+%        \pause
+%        \item From Kontsevich's proof one can also get a weighted version for trivalent graphs; weight = number of \alert{Kasteleyn orientations} with fixed ``indegrees''.
+%        \pause
+%        \item Formula $(k+l-2)! \cdot (L_1+\ldots+L_k)^{\ell(d)-1}$ suggests a double counting argument: each tree contributes $(L_1+\ldots+L_k)^{\ell(d)-1}$.
+%        \pause 
+%        \item It would be interesting to have such an argument for trivalent graphs \\$\Rightarrow$ combinatorics of the numbers $\int_{\overline{\Mc}_{g,n}} \psi_1^{\alpha_1}\cdots \psi_n^{\alpha_n}$.
+%    \end{itemize}
+%\end{frame}
 
 % \begin{frame}{Graphs with odd vertex degrees}
 %     \textbf{Kontsevich '92}: for any partition $d$ with odd parts, the top-degree term of $\Nc^d_{g,n}$ is a polynomial \emph{outside of the walls}.

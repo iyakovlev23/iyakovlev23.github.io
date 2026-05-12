@@ -1,2 +1,1 @@
-\beamer@sectionintoc {1}{Slides cachés}{23}{1}{1}
-\beamer@sectionintoc {2}{Results on counting functions of metric ribbon graphs}{56}{1}{2}
+\beamer@sectionintoc {1}{Slides cachés}{24}{1}{1}

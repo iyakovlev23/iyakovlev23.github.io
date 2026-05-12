@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.13)  11 MAY 2026 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.13)  12 MAY 2026 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -933,32 +933,32 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (1.55252pt too wide) in paragraph at lines 129--129
+Overfull \hbox (1.55252pt too wide) in paragraph at lines 126--126
 []|\OT1/cmss/m/n/10.95 32h| 
  []
 
 
-Overfull \hbox (1.55252pt too wide) in paragraph at lines 129--129
+Overfull \hbox (1.55252pt too wide) in paragraph at lines 126--126
 []|\OT1/cmss/m/n/10.95 32h| 
  []
 
 
-Overfull \hbox (1.55252pt too wide) in paragraph at lines 129--129
+Overfull \hbox (1.55252pt too wide) in paragraph at lines 126--126
 []|\OT1/cmss/m/n/10.95 32h| 
  []
 
 
-Overfull \hbox (1.55252pt too wide) in paragraph at lines 129--129
+Overfull \hbox (1.55252pt too wide) in paragraph at lines 126--126
 []|\OT1/cmss/m/n/10.95 28h| 
  []
 
 
-Overfull \hbox (1.55252pt too wide) in paragraph at lines 129--129
+Overfull \hbox (1.55252pt too wide) in paragraph at lines 126--126
 []|\OT1/cmss/m/n/10.95 32h| 
  []
 
 
-Overfull \hbox (0.60645pt too wide) in paragraph at lines 129--129
+Overfull \hbox (0.60645pt too wide) in paragraph at lines 126--126
 []|\OT1/cmss/m/n/10.95 TD/TDM| 
  []
 
@@ -966,154 +966,269 @@ Overfull \hbox (0.60645pt too wide) in paragraph at lines 129--129
 
 ] [3
 
-]
-Overfull \hbox (9.03542pt too wide) in paragraph at lines 160--160
-[]|\OT1/cmss/m/n/10.95 Organisation[]| 
- []
+] [4
 
-[4
-
-]
-<circles.pdf, id=59, 427.63165pt x 245.62796pt>
+] (./circles.pdf_tex
+<circles.pdf, id=56, page=1, 463.40422pt x 255.01173pt>
 File: circles.pdf Graphic file (type pdf)
-<use circles.pdf>
-Package pdftex.def Info: circles.pdf  used on input line 167.
-(pdftex.def)             Requested size: 301.15196pt x 172.98033pt.
- [5
+<use circles.pdf, page 1>
+Package pdftex.def Info: circles.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 376.43852pt x 207.16539pt.
+) [5
 
  <./circles.pdf>] [6
 
 ]
-Package epstopdf Info: Source file: <euclidean-polygons.eps>
-(epstopdf)                    date: 2026-05-11 07:19:24
-(epstopdf)                    size: 67906 bytes
-(epstopdf)             Output file: <euclidean-polygons-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:13
-(epstopdf)                    size: 63954 bytes
-(epstopdf)             Command: <repstopdf --outfile=euclidean-polygons-eps-con
-verted-to.pdf euclidean-polygons.eps>
-(epstopdf)             \includegraphics on input line 196.
-Package epstopdf Info: Output file is already uptodate.
-<euclidean-polygons-eps-converted-to.pdf, id=99, 486.81876pt x 223.83624pt>
-File: euclidean-polygons-eps-converted-to.pdf Graphic file (type pdf)
-<use euclidean-polygons-eps-converted-to.pdf>
-Package pdftex.def Info: euclidean-polygons-eps-converted-to.pdf  used on input
- line 196.
-(pdftex.def)             Requested size: 150.5731pt x 69.2314pt.
-Package epstopdf Info: Source file: <singularity.eps>
-(epstopdf)                    date: 2026-05-11 07:19:24
-(epstopdf)                    size: 61322 bytes
-(epstopdf)             Output file: <singularity-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 12:07:19
-(epstopdf)                    size: 55778 bytes
-(epstopdf)             Command: <repstopdf --outfile=singularity-eps-converted-
-to.pdf singularity.eps>
-(epstopdf)             \includegraphics on input line 196.
-Package epstopdf Info: Output file is already uptodate.
-<singularity-eps-converted-to.pdf, id=100, 194.7275pt x 167.62625pt>
-File: singularity-eps-converted-to.pdf Graphic file (type pdf)
-<use singularity-eps-converted-to.pdf>
-Package pdftex.def Info: singularity-eps-converted-to.pdf  used on input line 1
-96.
-(pdftex.def)             Requested size: 86.57924pt x 74.52821pt.
- [7
-
- <./euclidean-polygons-eps-converted-to.pdf> <./singularity-eps-converted-to.pd
-f>] [8
-
-]
-<squares-french.pdf, id=122, 132.495pt x 132.495pt>
+<squares-french.pdf, id=85, 132.495pt x 132.495pt>
 File: squares-french.pdf Graphic file (type pdf)
 <use squares-french.pdf>
-Package pdftex.def Info: squares-french.pdf  used on input line 246.
-(pdftex.def)             Requested size: 56.46634pt x 56.4663pt.
-<4-2.pdf, id=123, 148.22014pt x 151.17027pt>
-File: 4-2.pdf Graphic file (type pdf)
-<use 4-2.pdf>
-Package pdftex.def Info: 4-2.pdf  used on input line 246.
-(pdftex.def)             Requested size: 71.59944pt x 73.0232pt.
-<4-3.pdf, id=124, 214.89447pt x 153.18925pt>
-File: 4-3.pdf Graphic file (type pdf)
-<use 4-3.pdf>
-Package pdftex.def Info: 4-3.pdf  used on input line 246.
-(pdftex.def)             Requested size: 102.43661pt x 73.0232pt.
+Package pdftex.def Info: squares-french.pdf  used on input line 211.
+(pdftex.def)             Requested size: 52.70149pt x 52.70187pt.
+Package epstopdf Info: Source file: <surface.eps>
+(epstopdf)                    date: 2026-05-11 07:19:24
+(epstopdf)                    size: 10531 bytes
+(epstopdf)             Output file: <surface-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-05-12 13:19:49
+(epstopdf)                    size: 4691 bytes
+(epstopdf)             Command: <repstopdf --outfile=surface-eps-converted-to.p
+df surface.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+<surface-eps-converted-to.pdf, id=86, 184.69pt x 81.30376pt>
+File: surface-eps-converted-to.pdf Graphic file (type pdf)
+<use surface-eps-converted-to.pdf>
+Package pdftex.def Info: surface-eps-converted-to.pdf  used on input line 211.
+(pdftex.def)             Requested size: 120.08492pt x 52.86293pt.
+<cyl-decomp.pdf, id=87, 568.55821pt x 217.84148pt>
+File: cyl-decomp.pdf Graphic file (type pdf)
+<use cyl-decomp.pdf>
+Package pdftex.def Info: cyl-decomp.pdf  used on input line 211.
+(pdftex.def)             Requested size: 225.8654pt x 86.54004pt.
+ [7
+
+ <./squares-french.pdf> <./surface-eps-converted-to.pdf> <./cyl-decomp.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./cyl-decomp.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+File: squares-french.pdf Graphic file (type pdf)
+<use squares-french.pdf>
+Package pdftex.def Info: squares-french.pdf  used on input line 211.
+(pdftex.def)             Requested size: 52.70149pt x 52.70187pt.
+Package epstopdf Info: Source file: <surface.eps>
+(epstopdf)                    date: 2026-05-11 07:19:24
+(epstopdf)                    size: 10531 bytes
+(epstopdf)             Output file: <surface-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-05-12 13:19:49
+(epstopdf)                    size: 4691 bytes
+(epstopdf)             Command: <repstopdf --outfile=surface-eps-converted-to.p
+df surface.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+File: surface-eps-converted-to.pdf Graphic file (type pdf)
+<use surface-eps-converted-to.pdf>
+Package pdftex.def Info: surface-eps-converted-to.pdf  used on input line 211.
+(pdftex.def)             Requested size: 120.08492pt x 52.86293pt.
+File: cyl-decomp.pdf Graphic file (type pdf)
+<use cyl-decomp.pdf>
+Package pdftex.def Info: cyl-decomp.pdf  used on input line 211.
+(pdftex.def)             Requested size: 225.8654pt x 86.54004pt.
+ [8
+
+]
+<def-rg-1.pdf, id=117, 390.01988pt x 110.63466pt>
+File: def-rg-1.pdf Graphic file (type pdf)
+<use def-rg-1.pdf>
+Package pdftex.def Info: def-rg-1.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
+<def-rg-2.pdf, id=118, 390.01988pt x 110.63466pt>
+File: def-rg-2.pdf Graphic file (type pdf)
+<use def-rg-2.pdf>
+Package pdftex.def Info: def-rg-2.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
+<def-rg-3.pdf, id=119, 390.01988pt x 110.63466pt>
+File: def-rg-3.pdf Graphic file (type pdf)
+<use def-rg-3.pdf>
+Package pdftex.def Info: def-rg-3.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
  [9
 
- <./squares-french.pdf> <./4-2.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./4-2.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <./4-3.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./4-3.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
->]
-<cyl-decomp.pdf, id=141, 568.55821pt x 217.84148pt>
-File: cyl-decomp.pdf Graphic file (type pdf)
-<use cyl-decomp.pdf>
-Package pdftex.def Info: cyl-decomp.pdf  used on input line 265.
-(pdftex.def)             Requested size: 244.68274pt x 93.74977pt.
+ <./def-rg-1.pdf>]
+File: def-rg-1.pdf Graphic file (type pdf)
+<use def-rg-1.pdf>
+Package pdftex.def Info: def-rg-1.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
+File: def-rg-2.pdf Graphic file (type pdf)
+<use def-rg-2.pdf>
+Package pdftex.def Info: def-rg-2.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
+File: def-rg-3.pdf Graphic file (type pdf)
+<use def-rg-3.pdf>
+Package pdftex.def Info: def-rg-3.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
  [10
 
- <./cyl-decomp.pdf>]
-File: cyl-decomp.pdf Graphic file (type pdf)
-<use cyl-decomp.pdf>
-Package pdftex.def Info: cyl-decomp.pdf  used on input line 265.
-(pdftex.def)             Requested size: 244.68274pt x 93.74977pt.
+ <./def-rg-2.pdf>]
+File: def-rg-1.pdf Graphic file (type pdf)
+<use def-rg-1.pdf>
+Package pdftex.def Info: def-rg-1.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
+File: def-rg-2.pdf Graphic file (type pdf)
+<use def-rg-2.pdf>
+Package pdftex.def Info: def-rg-2.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
+File: def-rg-3.pdf Graphic file (type pdf)
+<use def-rg-3.pdf>
+Package pdftex.def Info: def-rg-3.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
  [11
 
-] [12
+ <./def-rg-3.pdf>]
+File: def-rg-1.pdf Graphic file (type pdf)
+<use def-rg-1.pdf>
+Package pdftex.def Info: def-rg-1.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
+File: def-rg-2.pdf Graphic file (type pdf)
+<use def-rg-2.pdf>
+Package pdftex.def Info: def-rg-2.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
+File: def-rg-3.pdf Graphic file (type pdf)
+<use def-rg-3.pdf>
+Package pdftex.def Info: def-rg-3.pdf  used on input line 238.
+(pdftex.def)             Requested size: 263.50581pt x 74.74944pt.
 
-] [13
+[12
 
-] [14
+]
+<recollement-mgn-comb-2.pdf, id=153, 377.65631pt x 191.64365pt>
+File: recollement-mgn-comb-2.pdf Graphic file (type pdf)
+<use recollement-mgn-comb-2.pdf>
+Package pdftex.def Info: recollement-mgn-comb-2.pdf  used on input line 262.
+(pdftex.def)             Requested size: 188.21925pt x 95.51453pt.
+ [13
 
-] [15
+ <./recollement-mgn-comb-2.pdf>]
+File: recollement-mgn-comb-2.pdf Graphic file (type pdf)
+<use recollement-mgn-comb-2.pdf>
+Package pdftex.def Info: recollement-mgn-comb-2.pdf  used on input line 262.
+(pdftex.def)             Requested size: 188.21925pt x 95.51453pt.
+ [14
 
-] [16
+]
+File: recollement-mgn-comb-2.pdf Graphic file (type pdf)
+<use recollement-mgn-comb-2.pdf>
+Package pdftex.def Info: recollement-mgn-comb-2.pdf  used on input line 262.
+(pdftex.def)             Requested size: 188.21925pt x 95.51453pt.
+ [15
+
+]
+File: recollement-mgn-comb-2.pdf Graphic file (type pdf)
+<use recollement-mgn-comb-2.pdf>
+Package pdftex.def Info: recollement-mgn-comb-2.pdf  used on input line 262.
+(pdftex.def)             Requested size: 188.21925pt x 95.51453pt.
+ [16
 
 ] [17
 
-]
-<chapuy-2.png, id=322, 582.175pt x 289.08pt>
-File: chapuy-2.png Graphic file (type png)
-<use chapuy-2.png>
-Package pdftex.def Info: chapuy-2.png  used on input line 303.
-(pdftex.def)             Requested size: 112.9327pt x 56.07703pt.
-<chapuy-3.png, id=324, 347.2975pt x 326.21875pt>
-File: chapuy-3.png Graphic file (type png)
-<use chapuy-3.png>
-Package pdftex.def Info: chapuy-3.png  used on input line 303.
-(pdftex.def)             Requested size: 75.28654pt x 70.71805pt.
-<many-vertices-bij-bis.pdf, id=325, 261.4218pt x 111.45728pt>
-File: many-vertices-bij-bis.pdf Graphic file (type pdf)
-<use many-vertices-bij-bis.pdf>
-Package pdftex.def Info: many-vertices-bij-bis.pdf  used on input line 303.
-(pdftex.def)             Requested size: 150.5731pt x 64.19966pt.
- [18
+] [18
 
- <./chapuy-2.png> <./chapuy-3.png> <./many-vertices-bij-bis.pdf>] [19
+] [19
 
 ] [20
 
 ]
-<circles-2.pdf, id=391, 472.80019pt x 228.44667pt>
-File: circles-2.pdf Graphic file (type pdf)
-<use circles-2.pdf>
-Package pdftex.def Info: circles-2.pdf  used on input line 347.
-(pdftex.def)             Requested size: 338.79236pt x 163.70065pt.
- [21
+<chapuy-2.png, id=211, 582.175pt x 289.08pt>
+File: chapuy-2.png Graphic file (type png)
+<use chapuy-2.png>
+Package pdftex.def Info: chapuy-2.png  used on input line 351.
+(pdftex.def)             Requested size: 112.9327pt x 56.07703pt.
+<chapuy-3.png, id=213, 347.2975pt x 326.21875pt>
+File: chapuy-3.png Graphic file (type png)
+<use chapuy-3.png>
+Package pdftex.def Info: chapuy-3.png  used on input line 351.
+(pdftex.def)             Requested size: 75.28654pt x 70.71805pt.
+<many-vertices-bij-bis.pdf, id=214, 261.4218pt x 111.45728pt>
+File: many-vertices-bij-bis.pdf Graphic file (type pdf)
+<use many-vertices-bij-bis.pdf>
+Package pdftex.def Info: many-vertices-bij-bis.pdf  used on input line 351.
+(pdftex.def)             Requested size: 150.5731pt x 64.19966pt.
 
- <./circles-2.pdf>] [22
+[21
+
+ <./chapuy-2.png> <./chapuy-3.png> <./many-vertices-bij-bis.pdf>]
+(./circles-projet.pdf_tex
+<circles-projet.pdf, id=224, page=1, 499.55518pt x 255.01173pt>
+File: circles-projet.pdf Graphic file (type pdf)
+<use circles-projet.pdf, page 1>
+Package pdftex.def Info: circles-projet.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 357.61543pt x 182.56158pt.
+) [22
+
+ <./circles-projet.pdf>]
+(./circles-projet.pdf_tex
+File: circles-projet.pdf Graphic file (type pdf)
+<use circles-projet.pdf, page 1>
+Package pdftex.def Info: circles-projet.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 357.61543pt x 182.56158pt.
+) [23
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 360.
+(hyperref)                removing `\translate ' on input line 401.
 
-[23
+[24
 
 ]
+Package epstopdf Info: Source file: <polytopes.eps>
+(epstopdf)                    date: 2026-05-11 07:19:24
+(epstopdf)                    size: 9098 bytes
+(epstopdf)             Output file: <polytopes-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-05-11 09:20:14
+(epstopdf)                    size: 4547 bytes
+(epstopdf)             Command: <repstopdf --outfile=polytopes-eps-converted-to
+.pdf polytopes.eps>
+(epstopdf)             \includegraphics on input line 491.
+Package epstopdf Info: Output file is already uptodate.
+<polytopes-eps-converted-to.pdf, id=269, 389.455pt x 152.57pt>
+File: polytopes-eps-converted-to.pdf Graphic file (type pdf)
+<use polytopes-eps-converted-to.pdf>
+Package pdftex.def Info: polytopes-eps-converted-to.pdf  used on input line 491
+.
+(pdftex.def)             Requested size: 155.33354pt x 60.85204pt.
+ [25
+
+ <./polytopes-eps-converted-to.pdf>] [26
+
+]
+<weghting-3.pdf, id=298, 196.01088pt x 144.17685pt>
+File: weghting-3.pdf Graphic file (type pdf)
+<use weghting-3.pdf>
+Package pdftex.def Info: weghting-3.pdf  used on input line 539.
+(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
+ [27
+
+ <./weghting-3.pdf>]
+Package epstopdf Info: Source file: <many-vertices-bij-3.eps>
+(epstopdf)                    date: 2026-05-11 07:19:26
+(epstopdf)                    size: 27711 bytes
+(epstopdf)             Output file: <many-vertices-bij-3-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-05-11 09:20:15
+(epstopdf)                    size: 8081 bytes
+(epstopdf)             Command: <repstopdf --outfile=many-vertices-bij-3-eps-co
+nverted-to.pdf many-vertices-bij-3.eps>
+(epstopdf)             \includegraphics on input line 575.
+Package epstopdf Info: Output file is already uptodate.
+<many-vertices-bij-3-eps-converted-to.pdf, id=320, 261.97874pt x 112.42pt>
+File: many-vertices-bij-3-eps-converted-to.pdf Graphic file (type pdf)
+<use many-vertices-bij-3-eps-converted-to.pdf>
+Package pdftex.def Info: many-vertices-bij-3-eps-converted-to.pdf  used on inpu
+t line 575.
+(pdftex.def)             Requested size: 225.8654pt x 96.92633pt.
+
+[28
+
+ <./many-vertices-bij-3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <degenerate-tree-new.eps>
 (epstopdf)                    date: 2026-05-11 07:19:26
 (epstopdf)                    size: 28166 bytes
@@ -1122,37 +1237,37 @@ Package epstopdf Info: Source file: <degenerate-tree-new.eps>
 (epstopdf)                    size: 9286 bytes
 (epstopdf)             Command: <repstopdf --outfile=degenerate-tree-new-eps-co
 nverted-to.pdf degenerate-tree-new.eps>
-(epstopdf)             \includegraphics on input line 381.
+(epstopdf)             \includegraphics on input line 590.
 Package epstopdf Info: Output file is already uptodate.
-<degenerate-tree-new-eps-converted-to.pdf, id=433, 432.61626pt x 136.51pt>
+<degenerate-tree-new-eps-converted-to.pdf, id=328, 432.61626pt x 136.51pt>
 File: degenerate-tree-new-eps-converted-to.pdf Graphic file (type pdf)
 <use degenerate-tree-new-eps-converted-to.pdf>
 Package pdftex.def Info: degenerate-tree-new-eps-converted-to.pdf  used on inpu
-t line 381.
+t line 590.
 (pdftex.def)             Requested size: 301.15196pt x 95.03143pt.
- [24
+ [29
 
- <./degenerate-tree-new-eps-converted-to.pdf>]
-(./odd-joining-to-markers.pdf_tex
-<odd-joining-to-markers.pdf, id=446, page=1, 307.76776pt x 249.86642pt>
+ <./degenerate-tree-new-eps-converted-to.pdf>] (./odd-joining-to-markers.pdf_te
+x
+<odd-joining-to-markers.pdf, id=341, page=1, 307.76776pt x 249.86642pt>
 File: odd-joining-to-markers.pdf Graphic file (type pdf)
 <use odd-joining-to-markers.pdf, page 1>
 Package pdftex.def Info: odd-joining-to-markers.pdf , page1 used on input line 
 56.
 (pdftex.def)             Requested size: 207.04233pt x 168.08827pt.
-<odd-joining-to-markers.pdf, id=447, page=2, 307.76776pt x 249.86642pt>
+<odd-joining-to-markers.pdf, id=342, page=2, 307.76776pt x 249.86642pt>
 File: odd-joining-to-markers.pdf Graphic file (type pdf)
 <use odd-joining-to-markers.pdf, page 2>
 Package pdftex.def Info: odd-joining-to-markers.pdf , page2 used on input line 
 63.
 (pdftex.def)             Requested size: 207.04233pt x 168.08827pt.
-<odd-joining-to-markers.pdf, id=448, page=3, 307.76776pt x 249.86642pt>
+<odd-joining-to-markers.pdf, id=343, page=3, 307.76776pt x 249.86642pt>
 File: odd-joining-to-markers.pdf Graphic file (type pdf)
 <use odd-joining-to-markers.pdf, page 3>
 Package pdftex.def Info: odd-joining-to-markers.pdf , page3 used on input line 
 74.
 (pdftex.def)             Requested size: 207.04233pt x 168.08827pt.
-) [25
+) [30
 
  <./odd-joining-to-markers.pdf> <./odd-joining-to-markers.pdf
 
@@ -1162,611 +1277,7 @@ usion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./odd-joining-to-markers.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->] [26
-
-] [27
-
-] [28
-
-] [29
-
-] [30
-
-] [31
-
-]
-<def-rg-1.pdf, id=560, 390.01988pt x 110.63466pt>
-File: def-rg-1.pdf Graphic file (type pdf)
-<use def-rg-1.pdf>
-Package pdftex.def Info: def-rg-1.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
-<def-rg-2.pdf, id=561, 390.01988pt x 110.63466pt>
-File: def-rg-2.pdf Graphic file (type pdf)
-<use def-rg-2.pdf>
-Package pdftex.def Info: def-rg-2.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
-<def-rg-3.pdf, id=562, 390.01988pt x 110.63466pt>
-File: def-rg-3.pdf Graphic file (type pdf)
-<use def-rg-3.pdf>
-Package pdftex.def Info: def-rg-3.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
- [32
-
- <./def-rg-1.pdf>]
-File: def-rg-1.pdf Graphic file (type pdf)
-<use def-rg-1.pdf>
-Package pdftex.def Info: def-rg-1.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
-File: def-rg-2.pdf Graphic file (type pdf)
-<use def-rg-2.pdf>
-Package pdftex.def Info: def-rg-2.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
-File: def-rg-3.pdf Graphic file (type pdf)
-<use def-rg-3.pdf>
-Package pdftex.def Info: def-rg-3.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
- [33
-
-]
-File: def-rg-1.pdf Graphic file (type pdf)
-<use def-rg-1.pdf>
-Package pdftex.def Info: def-rg-1.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
-File: def-rg-2.pdf Graphic file (type pdf)
-<use def-rg-2.pdf>
-Package pdftex.def Info: def-rg-2.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
-File: def-rg-3.pdf Graphic file (type pdf)
-<use def-rg-3.pdf>
-Package pdftex.def Info: def-rg-3.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
- [34
-
- <./def-rg-2.pdf>]
-File: def-rg-1.pdf Graphic file (type pdf)
-<use def-rg-1.pdf>
-Package pdftex.def Info: def-rg-1.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
-File: def-rg-2.pdf Graphic file (type pdf)
-<use def-rg-2.pdf>
-Package pdftex.def Info: def-rg-2.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
-File: def-rg-3.pdf Graphic file (type pdf)
-<use def-rg-3.pdf>
-Package pdftex.def Info: def-rg-3.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
- [35
-
- <./def-rg-3.pdf>]
-File: def-rg-1.pdf Graphic file (type pdf)
-<use def-rg-1.pdf>
-Package pdftex.def Info: def-rg-1.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
-File: def-rg-2.pdf Graphic file (type pdf)
-<use def-rg-2.pdf>
-Package pdftex.def Info: def-rg-2.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
-File: def-rg-3.pdf Graphic file (type pdf)
-<use def-rg-3.pdf>
-Package pdftex.def Info: def-rg-3.pdf  used on input line 456.
-(pdftex.def)             Requested size: 301.15196pt x 85.42865pt.
- [36
-
-] [37
-
-] [38
-
-] [39
-
-] (./intro-5-0.pdf_tex
-<intro-5-0.pdf, id=618, page=1, 281.28789pt x 145.60991pt>
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 1>
-Package pdftex.def Info: intro-5-0.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-<intro-5-0.pdf, id=619, page=2, 281.28789pt x 145.60991pt>
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 2>
-Package pdftex.def Info: intro-5-0.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-)
-(./intro-5-1.pdf_tex
-<intro-5-1.pdf, id=620, page=1, 281.28789pt x 145.60991pt>
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 1>
-Package pdftex.def Info: intro-5-1.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-<intro-5-1.pdf, id=621, page=2, 281.28789pt x 145.60991pt>
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 2>
-Package pdftex.def Info: intro-5-1.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-<intro-5-1.pdf, id=622, page=3, 281.28789pt x 145.60991pt>
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 3>
-Package pdftex.def Info: intro-5-1.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-) [40
-
- <./intro-5-0.pdf> <./intro-5-0.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./intro-5-0.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
->] (./intro-5-0.pdf_tex
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 1>
-Package pdftex.def Info: intro-5-0.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 2>
-Package pdftex.def Info: intro-5-0.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-) (./intro-5-1.pdf_tex
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 1>
-Package pdftex.def Info: intro-5-1.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 2>
-Package pdftex.def Info: intro-5-1.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 3>
-Package pdftex.def Info: intro-5-1.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-) [41
-
-] (./intro-5-0.pdf_tex
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 1>
-Package pdftex.def Info: intro-5-0.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 2>
-Package pdftex.def Info: intro-5-0.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-)
-(./intro-5-1.pdf_tex
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 1>
-Package pdftex.def Info: intro-5-1.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 2>
-Package pdftex.def Info: intro-5-1.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 3>
-Package pdftex.def Info: intro-5-1.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-) [42
-
- <./intro-5-1.pdf> <./intro-5-1.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./intro-5-1.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
-> <./intro-5-1.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./intro-5-1.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
->] (./intro-5-0.pdf_tex
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 1>
-Package pdftex.def Info: intro-5-0.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 2>
-Package pdftex.def Info: intro-5-0.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-) (./intro-5-1.pdf_tex
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 1>
-Package pdftex.def Info: intro-5-1.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 2>
-Package pdftex.def Info: intro-5-1.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 3>
-Package pdftex.def Info: intro-5-1.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-) [43
-
-] (./intro-5-0.pdf_tex
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 1>
-Package pdftex.def Info: intro-5-0.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 2>
-Package pdftex.def Info: intro-5-0.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-)
-(./intro-5-1.pdf_tex
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 1>
-Package pdftex.def Info: intro-5-1.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 2>
-Package pdftex.def Info: intro-5-1.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 3>
-Package pdftex.def Info: intro-5-1.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-) [44
-
-] (./intro-5-0.pdf_tex
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 1>
-Package pdftex.def Info: intro-5-0.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-0.pdf Graphic file (type pdf)
-<use intro-5-0.pdf, page 2>
-Package pdftex.def Info: intro-5-0.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-) (./intro-5-1.pdf_tex
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 1>
-Package pdftex.def Info: intro-5-1.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 2>
-Package pdftex.def Info: intro-5-1.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-File: intro-5-1.pdf Graphic file (type pdf)
-<use intro-5-1.pdf, page 3>
-Package pdftex.def Info: intro-5-1.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 150.5731pt x 77.94606pt.
-) [45
-
-]
-Package epstopdf Info: Source file: <polytopes.eps>
-(epstopdf)                    date: 2026-05-11 07:19:24
-(epstopdf)                    size: 9098 bytes
-(epstopdf)             Output file: <polytopes-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:14
-(epstopdf)                    size: 4547 bytes
-(epstopdf)             Command: <repstopdf --outfile=polytopes-eps-converted-to
-.pdf polytopes.eps>
-(epstopdf)             \includegraphics on input line 584.
-Package epstopdf Info: Output file is already uptodate.
-<polytopes-eps-converted-to.pdf, id=679, 389.455pt x 152.57pt>
-File: polytopes-eps-converted-to.pdf Graphic file (type pdf)
-<use polytopes-eps-converted-to.pdf>
-Package pdftex.def Info: polytopes-eps-converted-to.pdf  used on input line 584
-.
-(pdftex.def)             Requested size: 155.33354pt x 60.85204pt.
-
-[46
-
- <./polytopes-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <polytopes.eps>
-(epstopdf)                    date: 2026-05-11 07:19:24
-(epstopdf)                    size: 9098 bytes
-(epstopdf)             Output file: <polytopes-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:14
-(epstopdf)                    size: 4547 bytes
-(epstopdf)             Command: <repstopdf --outfile=polytopes-eps-converted-to
-.pdf polytopes.eps>
-(epstopdf)             \includegraphics on input line 584.
-Package epstopdf Info: Output file is already uptodate.
-File: polytopes-eps-converted-to.pdf Graphic file (type pdf)
-<use polytopes-eps-converted-to.pdf>
-Package pdftex.def Info: polytopes-eps-converted-to.pdf  used on input line 584
-.
-(pdftex.def)             Requested size: 155.33354pt x 60.85204pt.
- [47
-
-]
-Package epstopdf Info: Source file: <polytopes.eps>
-(epstopdf)                    date: 2026-05-11 07:19:24
-(epstopdf)                    size: 9098 bytes
-(epstopdf)             Output file: <polytopes-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:14
-(epstopdf)                    size: 4547 bytes
-(epstopdf)             Command: <repstopdf --outfile=polytopes-eps-converted-to
-.pdf polytopes.eps>
-(epstopdf)             \includegraphics on input line 584.
-Package epstopdf Info: Output file is already uptodate.
-File: polytopes-eps-converted-to.pdf Graphic file (type pdf)
-<use polytopes-eps-converted-to.pdf>
-Package pdftex.def Info: polytopes-eps-converted-to.pdf  used on input line 584
-.
-(pdftex.def)             Requested size: 155.33354pt x 60.85204pt.
- [48
-
-] [49
-
-] [50
-
-] [51
-
-] [52
-
-] [53
-
-]
-[54
-
-] [55
-
-] [56
-
-] [57
-
-] [58
-
-]
-<tree-4.pdf, id=840, 195.73125pt x 102.3825pt>
-File: tree-4.pdf Graphic file (type pdf)
-<use tree-4.pdf>
-Package pdftex.def Info: tree-4.pdf  used on input line 698.
-(pdftex.def)             Requested size: 150.5731pt x 78.76602pt.
-File: chapuy-2.png Graphic file (type png)
-<use chapuy-2.png>
-Package pdftex.def Info: chapuy-2.png  used on input line 698.
-(pdftex.def)             Requested size: 147.05354pt x 73.0232pt.
-File: chapuy-3.png Graphic file (type png)
-<use chapuy-3.png>
-Package pdftex.def Info: chapuy-3.png  used on input line 698.
-(pdftex.def)             Requested size: 77.7411pt x 73.0232pt.
- [59
-
- <./tree-4.pdf>]
-<weghting-1.pdf, id=849, 196.01088pt x 144.17685pt>
-File: weghting-1.pdf Graphic file (type pdf)
-<use weghting-1.pdf>
-Package pdftex.def Info: weghting-1.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-<weghting-2.pdf, id=850, 196.01088pt x 144.17685pt>
-File: weghting-2.pdf Graphic file (type pdf)
-<use weghting-2.pdf>
-Package pdftex.def Info: weghting-2.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-<weghting-3.pdf, id=851, 196.01088pt x 144.17685pt>
-File: weghting-3.pdf Graphic file (type pdf)
-<use weghting-3.pdf>
-Package pdftex.def Info: weghting-3.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
- [60
-
-]
-File: weghting-1.pdf Graphic file (type pdf)
-<use weghting-1.pdf>
-Package pdftex.def Info: weghting-1.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-File: weghting-2.pdf Graphic file (type pdf)
-<use weghting-2.pdf>
-Package pdftex.def Info: weghting-2.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-File: weghting-3.pdf Graphic file (type pdf)
-<use weghting-3.pdf>
-Package pdftex.def Info: weghting-3.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
- [61
-
-]
-File: weghting-1.pdf Graphic file (type pdf)
-<use weghting-1.pdf>
-Package pdftex.def Info: weghting-1.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-File: weghting-2.pdf Graphic file (type pdf)
-<use weghting-2.pdf>
-Package pdftex.def Info: weghting-2.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-File: weghting-3.pdf Graphic file (type pdf)
-<use weghting-3.pdf>
-Package pdftex.def Info: weghting-3.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
- [62
-
- <./weghting-1.pdf>]
-File: weghting-1.pdf Graphic file (type pdf)
-<use weghting-1.pdf>
-Package pdftex.def Info: weghting-1.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-File: weghting-2.pdf Graphic file (type pdf)
-<use weghting-2.pdf>
-Package pdftex.def Info: weghting-2.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-File: weghting-3.pdf Graphic file (type pdf)
-<use weghting-3.pdf>
-Package pdftex.def Info: weghting-3.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-
-[63
-
- <./weghting-2.pdf>]
-File: weghting-1.pdf Graphic file (type pdf)
-<use weghting-1.pdf>
-Package pdftex.def Info: weghting-1.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-File: weghting-2.pdf Graphic file (type pdf)
-<use weghting-2.pdf>
-Package pdftex.def Info: weghting-2.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-File: weghting-3.pdf Graphic file (type pdf)
-<use weghting-3.pdf>
-Package pdftex.def Info: weghting-3.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
- [64
-
- <./weghting-3.pdf>]
-File: weghting-1.pdf Graphic file (type pdf)
-<use weghting-1.pdf>
-Package pdftex.def Info: weghting-1.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-File: weghting-2.pdf Graphic file (type pdf)
-<use weghting-2.pdf>
-Package pdftex.def Info: weghting-2.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
-File: weghting-3.pdf Graphic file (type pdf)
-<use weghting-3.pdf>
-Package pdftex.def Info: weghting-3.pdf  used on input line 749.
-(pdftex.def)             Requested size: 94.10962pt x 69.2217pt.
- [65
-
-]
-<many-vertices-bij.pdf, id=907, 261.4218pt x 111.45728pt>
-File: many-vertices-bij.pdf Graphic file (type pdf)
-<use many-vertices-bij.pdf>
-Package pdftex.def Info: many-vertices-bij.pdf  used on input line 786.
-(pdftex.def)             Requested size: 225.8654pt x 96.30205pt.
-Package epstopdf Info: Source file: <many-vertices-bij-2.eps>
-(epstopdf)                    date: 2026-05-11 07:19:26
-(epstopdf)                    size: 16841 bytes
-(epstopdf)             Output file: <many-vertices-bij-2-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:15
-(epstopdf)                    size: 5655 bytes
-(epstopdf)             Command: <repstopdf --outfile=many-vertices-bij-2-eps-co
-nverted-to.pdf many-vertices-bij-2.eps>
-(epstopdf)             \includegraphics on input line 786.
-Package epstopdf Info: Output file is already uptodate.
-<many-vertices-bij-2-eps-converted-to.pdf, id=908, 261.97874pt x 84.315pt>
-File: many-vertices-bij-2-eps-converted-to.pdf Graphic file (type pdf)
-<use many-vertices-bij-2-eps-converted-to.pdf>
-Package pdftex.def Info: many-vertices-bij-2-eps-converted-to.pdf  used on inpu
-t line 786.
-(pdftex.def)             Requested size: 225.8654pt x 72.69472pt.
-Package epstopdf Info: Source file: <many-vertices-bij-3.eps>
-(epstopdf)                    date: 2026-05-11 07:19:26
-(epstopdf)                    size: 27711 bytes
-(epstopdf)             Output file: <many-vertices-bij-3-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:15
-(epstopdf)                    size: 8081 bytes
-(epstopdf)             Command: <repstopdf --outfile=many-vertices-bij-3-eps-co
-nverted-to.pdf many-vertices-bij-3.eps>
-(epstopdf)             \includegraphics on input line 786.
-Package epstopdf Info: Output file is already uptodate.
-<many-vertices-bij-3-eps-converted-to.pdf, id=909, 261.97874pt x 112.42pt>
-File: many-vertices-bij-3-eps-converted-to.pdf Graphic file (type pdf)
-<use many-vertices-bij-3-eps-converted-to.pdf>
-Package pdftex.def Info: many-vertices-bij-3-eps-converted-to.pdf  used on inpu
-t line 786.
-(pdftex.def)             Requested size: 225.8654pt x 96.92633pt.
- [66
-
-]
-File: many-vertices-bij.pdf Graphic file (type pdf)
-<use many-vertices-bij.pdf>
-Package pdftex.def Info: many-vertices-bij.pdf  used on input line 786.
-(pdftex.def)             Requested size: 225.8654pt x 96.30205pt.
-Package epstopdf Info: Source file: <many-vertices-bij-2.eps>
-(epstopdf)                    date: 2026-05-11 07:19:26
-(epstopdf)                    size: 16841 bytes
-(epstopdf)             Output file: <many-vertices-bij-2-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:15
-(epstopdf)                    size: 5655 bytes
-(epstopdf)             Command: <repstopdf --outfile=many-vertices-bij-2-eps-co
-nverted-to.pdf many-vertices-bij-2.eps>
-(epstopdf)             \includegraphics on input line 786.
-Package epstopdf Info: Output file is already uptodate.
-File: many-vertices-bij-2-eps-converted-to.pdf Graphic file (type pdf)
-<use many-vertices-bij-2-eps-converted-to.pdf>
-Package pdftex.def Info: many-vertices-bij-2-eps-converted-to.pdf  used on inpu
-t line 786.
-(pdftex.def)             Requested size: 225.8654pt x 72.69472pt.
-Package epstopdf Info: Source file: <many-vertices-bij-3.eps>
-(epstopdf)                    date: 2026-05-11 07:19:26
-(epstopdf)                    size: 27711 bytes
-(epstopdf)             Output file: <many-vertices-bij-3-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:15
-(epstopdf)                    size: 8081 bytes
-(epstopdf)             Command: <repstopdf --outfile=many-vertices-bij-3-eps-co
-nverted-to.pdf many-vertices-bij-3.eps>
-(epstopdf)             \includegraphics on input line 786.
-Package epstopdf Info: Output file is already uptodate.
-File: many-vertices-bij-3-eps-converted-to.pdf Graphic file (type pdf)
-<use many-vertices-bij-3-eps-converted-to.pdf>
-Package pdftex.def Info: many-vertices-bij-3-eps-converted-to.pdf  used on inpu
-t line 786.
-(pdftex.def)             Requested size: 225.8654pt x 96.92633pt.
- [67
-
- <./many-vertices-bij.pdf>]
-File: many-vertices-bij.pdf Graphic file (type pdf)
-<use many-vertices-bij.pdf>
-Package pdftex.def Info: many-vertices-bij.pdf  used on input line 786.
-(pdftex.def)             Requested size: 225.8654pt x 96.30205pt.
-Package epstopdf Info: Source file: <many-vertices-bij-2.eps>
-(epstopdf)                    date: 2026-05-11 07:19:26
-(epstopdf)                    size: 16841 bytes
-(epstopdf)             Output file: <many-vertices-bij-2-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:15
-(epstopdf)                    size: 5655 bytes
-(epstopdf)             Command: <repstopdf --outfile=many-vertices-bij-2-eps-co
-nverted-to.pdf many-vertices-bij-2.eps>
-(epstopdf)             \includegraphics on input line 786.
-Package epstopdf Info: Output file is already uptodate.
-File: many-vertices-bij-2-eps-converted-to.pdf Graphic file (type pdf)
-<use many-vertices-bij-2-eps-converted-to.pdf>
-Package pdftex.def Info: many-vertices-bij-2-eps-converted-to.pdf  used on inpu
-t line 786.
-(pdftex.def)             Requested size: 225.8654pt x 72.69472pt.
-Package epstopdf Info: Source file: <many-vertices-bij-3.eps>
-(epstopdf)                    date: 2026-05-11 07:19:26
-(epstopdf)                    size: 27711 bytes
-(epstopdf)             Output file: <many-vertices-bij-3-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:15
-(epstopdf)                    size: 8081 bytes
-(epstopdf)             Command: <repstopdf --outfile=many-vertices-bij-3-eps-co
-nverted-to.pdf many-vertices-bij-3.eps>
-(epstopdf)             \includegraphics on input line 786.
-Package epstopdf Info: Output file is already uptodate.
-File: many-vertices-bij-3-eps-converted-to.pdf Graphic file (type pdf)
-<use many-vertices-bij-3-eps-converted-to.pdf>
-Package pdftex.def Info: many-vertices-bij-3-eps-converted-to.pdf  used on inpu
-t line 786.
-(pdftex.def)             Requested size: 225.8654pt x 96.92633pt.
- [68
-
- <./many-vertices-bij-2-eps-converted-to.pdf>]
-File: many-vertices-bij.pdf Graphic file (type pdf)
-<use many-vertices-bij.pdf>
-Package pdftex.def Info: many-vertices-bij.pdf  used on input line 786.
-(pdftex.def)             Requested size: 225.8654pt x 96.30205pt.
-Package epstopdf Info: Source file: <many-vertices-bij-2.eps>
-(epstopdf)                    date: 2026-05-11 07:19:26
-(epstopdf)                    size: 16841 bytes
-(epstopdf)             Output file: <many-vertices-bij-2-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:15
-(epstopdf)                    size: 5655 bytes
-(epstopdf)             Command: <repstopdf --outfile=many-vertices-bij-2-eps-co
-nverted-to.pdf many-vertices-bij-2.eps>
-(epstopdf)             \includegraphics on input line 786.
-Package epstopdf Info: Output file is already uptodate.
-File: many-vertices-bij-2-eps-converted-to.pdf Graphic file (type pdf)
-<use many-vertices-bij-2-eps-converted-to.pdf>
-Package pdftex.def Info: many-vertices-bij-2-eps-converted-to.pdf  used on inpu
-t line 786.
-(pdftex.def)             Requested size: 225.8654pt x 72.69472pt.
-Package epstopdf Info: Source file: <many-vertices-bij-3.eps>
-(epstopdf)                    date: 2026-05-11 07:19:26
-(epstopdf)                    size: 27711 bytes
-(epstopdf)             Output file: <many-vertices-bij-3-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-05-11 09:20:15
-(epstopdf)                    size: 8081 bytes
-(epstopdf)             Command: <repstopdf --outfile=many-vertices-bij-3-eps-co
-nverted-to.pdf many-vertices-bij-3.eps>
-(epstopdf)             \includegraphics on input line 786.
-Package epstopdf Info: Output file is already uptodate.
-File: many-vertices-bij-3-eps-converted-to.pdf Graphic file (type pdf)
-<use many-vertices-bij-3-eps-converted-to.pdf>
-Package pdftex.def Info: many-vertices-bij-3-eps-converted-to.pdf  used on inpu
-t line 786.
-(pdftex.def)             Requested size: 225.8654pt x 96.92633pt.
- [69
-
- <./many-vertices-bij-3-eps-converted-to.pdf>] [70
-
-] [71
-
-] [72
-
-] [73
+>] [31
 
 ]
 \tf@nav=\write6
@@ -1780,41 +1291,41 @@ t line 786.
 
  (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4DA269D9122A575E044F42BE1DD268AA;540.
+(rerunfilecheck)             Checksum: 12D2433B13D32C9D35F5FAFF31FB80D7;203.
  ) 
 Here is how much of TeX's memory you used:
- 25078 strings out of 476091
- 491535 string characters out of 5794081
- 1877330 words of memory out of 5000000
- 44736 multiletter control sequences out of 15000+600000
- 526435 words of font info for 85 fonts, out of 8000000 for 9000
+ 24829 strings out of 476091
+ 486614 string characters out of 5794081
+ 1866330 words of memory out of 5000000
+ 44603 multiletter control sequences out of 15000+600000
+ 525098 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,122p,379b,767s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (73 pages, 665219 bytes).
+ 128i,15n,122p,379b,637s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on main.pdf (31 pages, 392708 bytes).
 PDF statistics:
- 1121 PDF objects out of 1200 (max. 8388607)
- 745 compressed objects within 8 object streams
- 152 named destinations out of 1000 (max. 500000)
- 1350 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 482 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
 

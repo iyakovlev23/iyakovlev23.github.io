@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="166.17026mm"
-   height="80.289825mm"
-   viewBox="0 0 166.17027 80.289826"
+   width="175.57356mm"
+   height="89.626373mm"
+   viewBox="0 0 175.57358 89.626374"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="circles.svg"
+   sodipodi:docname="circles-projet.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,9 +25,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.4639531"
-     inkscape:cx="303.62995"
-     inkscape:cy="262.98657"
-     inkscape:window-width="1506"
+     inkscape:cx="428.63395"
+     inkscape:cy="110.65928"
+     inkscape:window-width="1453"
      inkscape:window-height="1371"
      inkscape:window-x="20"
      inkscape:window-y="20"
@@ -103,7 +103,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-3.0157485,-6.3827449)">
+     transform="translate(-0.37405893,-3.2208736)">
     <circle
        style="opacity:0.5;fill:#aade87;stroke:none;stroke-width:0;stroke-dasharray:none"
        id="circle3510"
@@ -126,7 +126,7 @@
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text234"
-       style="white-space:pre;shape-inside:url(#rect236);fill:#ff0000;stroke:#ff0000;stroke-width:2.51339" />
+       style="white-space:pre;shape-inside:url(#rect236);display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:2.51339" />
     <g
        id="g787"
        transform="translate(0.02041457)">
@@ -332,6 +332,103 @@
          style="stroke-width:0"
          x="147.25432"
          y="44.950981"
-         id="tspan793">complexes polèdrales</tspan></text>
+         id="tspan793">complexes polyédriques</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#17280b;stroke:none;stroke-width:0;stroke-dasharray:none"
+       x="141.67351"
+       y="51.947998"
+       id="text725"><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;stroke-width:0"
+         x="141.67351"
+         y="51.947998"
+         id="tspan723">décompositions</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;stroke-width:0"
+         x="141.67351"
+         y="55.916748"
+         id="tspan829">polyédriques de  $\mathcal{M}^{comb}_{g,n}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#17280b;stroke:none;stroke-width:0;stroke-dasharray:none"
+       x="146.94438"
+       y="28.816404"
+       id="text937"><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;stroke-width:0"
+         x="146.94438"
+         y="28.816404"
+         id="tspan935">récursions combinatoires</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;stroke-width:0"
+         x="146.94438"
+         y="32.785152"
+         id="tspan941">pour les corrélateurs KW</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#17280b;stroke:none;stroke-width:0;stroke-dasharray:none"
+       x="23.029928"
+       y="55.758904"
+       id="text947"><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;stroke-width:0"
+         x="23.029928"
+         y="55.758904"
+         id="tspan1013">cylindres dans les SPC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#17280b;stroke:none;stroke-width:0;stroke-dasharray:none"
+       x="129.94215"
+       y="84.193855"
+       id="text957"><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;stroke-width:0"
+         x="129.94215"
+         y="84.193855"
+         id="tspan955">representations spin de $S_n$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#17280b;stroke:none;stroke-width:0;stroke-dasharray:none"
+       x="135.21443"
+       y="10.319602"
+       id="text965"><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;stroke-width:0"
+         x="135.21443"
+         y="10.319602"
+         id="tspan963">cartes orientées et </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;stroke-width:0"
+         x="135.21443"
+         y="14.288352"
+         id="tspan969">structures r-spin</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#17280b;stroke:none;stroke-width:0;stroke-dasharray:none"
+       x="21.547359"
+       y="29.683355"
+       id="text975"><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;stroke-width:0"
+         x="21.547359"
+         y="29.683355"
+         id="tspan973">géométrie aléatoire,</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;stroke-width:0"
+         x="21.547359"
+         y="33.652103"
+         id="tspan979">limites locaux et d'échelle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#17280b;stroke:none;stroke-width:0;stroke-dasharray:none"
+       x="42.766441"
+       y="81.201187"
+       id="text1003"><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;stroke-width:0"
+         x="42.766441"
+         y="81.201187"
+         id="tspan1001">volumes de Masur--Veech</tspan></text>
   </g>
 </svg>
